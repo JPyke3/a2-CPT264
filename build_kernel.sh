@@ -29,7 +29,7 @@ clone_config_repo () {
 
 clone_raspberry_repo () {
     # Install depends
-    $SUDO -y $APT install git bc bison flex libssl-dev make
+    $SUDO $APT -y install git bc bison flex libssl-dev make
     # Clone Repo
     $GIT clone --depth=1 https://github.com/raspberrypi/linux "$BUILDDIR"/linux 
 }
