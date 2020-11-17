@@ -4,7 +4,7 @@
 BUILDDIR=$HOME/.build
 
 # Apt Frontent Variable
-DEBIAN_FRONTEND=noninteractive
+export DEBIAN_FRONTEND=noninteractive
 
 # Binary Variables
 GIT="/usr/bin/git"
