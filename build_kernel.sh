@@ -56,7 +56,7 @@ install_kernel () {
 }
 
 reboot_system () {
-    $SYSTEMCTL reboot
+    $SUDO $SYSTEMCTL reboot -i
 }
 
 create_build_environment
