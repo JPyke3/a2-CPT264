@@ -16,7 +16,7 @@ turn_off_led () {
 }
 
 poll_cpu () {
-    grep 'cpu ' /proc/stat | $ECHO $1 
+    grep "cpu" /proc/stat | $ECHO $1 
 }
 
 initialize
