@@ -23,6 +23,7 @@ poll_cpu () {
 }
 
 initialize
+turn_off_led
 while true
 do
     poll_cpu
