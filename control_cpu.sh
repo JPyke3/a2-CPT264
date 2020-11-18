@@ -19,7 +19,7 @@ turn_off_led () {
 }
 
 poll_cpu () {
-    USAGE="$TOP -bn1 | $GREP 'Cpu(s)' | $AWK '{print $2/100}'"
+    USAGE="${TOP} -bn1 | ${GREP} 'Cpu(s)' | ${AWK} '{print $2/100}'"
 }
 
 initialize
