@@ -4,7 +4,7 @@ ECHO="/bin/echo"
 
 initialize () {
     # Turn off the LED Triggering from Disk Activity
-    $ECHO > /sys/class/leds/led0/trigger
+    $ECHO none > /sys/class/leds/led0/trigger
 }
 
 turn_on_led () {
@@ -16,7 +16,7 @@ turn_off_led () {
 }
 
 poll_cpu () {
-    grep 'cpu ' /proc/stat | echo $1 
+    grep 'cpu ' /proc/stat | $ECHO $1 
 }
 
 initialize
