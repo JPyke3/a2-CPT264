@@ -19,7 +19,8 @@ turn_off_led () {
 }
 
 poll_cpu () {
-    USAGE="${TOP} -bn1 | ${GREP} 'Cpu(s)' | ${AWK} '{print $2/100}'"
+    USAGE=`${TOP} -bn1 | ${GREP} 'Cpu(s)' | ${AWK} '{printf "%.0f\n", \$2}' | ${AWK} '{ print $1 / 100}'`
+    NONUSAGE=`${TOP} -bn1 | ${GREP} 'Cpu(s)' | ${AWK} '{printf "%.0f\n", 100 - \$2}' | ${AWK} '{ print $1 / 100}'`
 }
 
 initialize
@@ -29,6 +30,7 @@ do
     turn_on_led
     sleep $USAGE
     turn_off_led
+    sleep $NONUSAGE
 done
 
 
