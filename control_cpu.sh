@@ -1,6 +1,9 @@
 #!/bin/bash
 
 ECHO="/bin/echo"
+TOP="/usr/bin/top"
+GREP="/bin/grep"
+AWK="/usr/bin/awk"
 
 initialize () {
     # Turn off the LED Triggering from Disk Activity
@@ -16,8 +19,16 @@ turn_off_led () {
 }
 
 poll_cpu () {
-    grep "cpu" /proc/stat | $ECHO $1 
+    USAGE="$TOP -bn1 | $GREP 'Cpu(s)' | $AWK '{print $2/100}'"
 }
 
 initialize
-poll_cpu
+while true
+do
+    poll_cpu
+    turn_on_led
+    sleep $USAGE
+    turn_off_led
+done
+
+
