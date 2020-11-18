@@ -5,21 +5,23 @@ ECHO="/bin/echo"
 TOP="/usr/bin/top"
 GREP="/bin/grep"
 AWK="/usr/bin/awk"
+SUDO="/usr/bin/sudo"
+SU="/bin/su"
 
 # Used to stop the LED Triggering
 initialize () {
     # Turn off the LED Triggering from Disk Activity
-    sudo su -c "${ECHO} none > /sys/class/leds/led0/trigger"
+    $SUDO $SU -c "${ECHO} none > /sys/class/leds/led0/trigger"
 }
 
 # Used to turn on the LED
 turn_on_led () {
-    sudo su -c "${ECHO} 1 > /sys/class/leds/led0/brightness"
+    $SUDO $SU -c "${ECHO} 1 > /sys/class/leds/led0/brightness"
 }
 
 # Used to turn off the LED
 turn_off_led () {
-    sudo su -c "${ECHO} 0 > /sys/class/leds/led0/brightness"
+    $SUDO $SU -c "${ECHO} 0 > /sys/class/leds/led0/brightness"
 }
 
 # Polls the CPU and writes the usage to $USAGE and the remainder of $USAGE to $NONUSAGE
