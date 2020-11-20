@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# control_cpu
+# Author: Jacob Pyke <s3755145@student.rmit.edu.au>
+
 # Binary Variables
 ECHO="/bin/echo"
 TOP="/usr/bin/top"
@@ -29,6 +32,16 @@ poll_cpu () {
     USAGE=`${TOP} -bn1 | ${GREP} 'Cpu(s)' | ${AWK} '{printf "%.0f\n", \$2}' | ${AWK} '{ print $1 / 100}'`
     NONUSAGE=`${TOP} -bn1 | ${GREP} 'Cpu(s)' | ${AWK} '{printf "%.0f\n", 100 - \$2}' | ${AWK} '{ print $1 / 100}'`
 }
+
+# Function to handle cleaning up from this bash script, this will revert the pi back to it's original state
+cleanup () {
+    turn_off_led
+    # Give the kernel LED access again
+    $SUDO $SU -c "${ECHO} mmc0 > /sys/class/leds/led0/trigger"
+    exit 0
+}
+
+trap cleanup SIGUSR2 
 
 initialize
 turn_off_led

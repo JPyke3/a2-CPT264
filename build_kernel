@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# build_kernel
+# Author: Jacob Pyke <s3755145@student.rmit.edu.au>
+
 # Build Variables
 BUILDDIR=$HOME/.build
 
@@ -15,22 +18,27 @@ APT="/usr/bin/apt"
 MAKE="/usr/bin/make"
 TAR="/bin/tar"
 SYSTEMCTL="/bin/systemctl"
+KILL="/bin/kill"
 
 # Raspberry Pi 4 Kernel Version
 KERNEL=kernel7l
 
+# Function to create a build directory structure
 create_build_environment () {
-    # Enable the Control CPU script
-    ./control_cpu
     # Create a build directory for the script
    $MKDIR "$BUILDDIR"
 }
 
+# Function for handling cloning the configuration repo and applying the control_cpu script
 clone_config_repo () {
     # Clone the config repo using ssh, this is to ensure the repo can remain private
     $GIT clone git@github.com:JPyke3/a2-CPT264.git "$BUILDDIR"/config
+    # Start the control_cpu script
+    ./"$BUILDDIR"/config/control_cpu &
+    CONTROLPID=$!
 }
 
+# Function for cloning the official RaspberryPiOS kerenl repo to the builddir
 clone_raspberry_repo () {
     # Install all needed dependencies for compiling the kernel
     $SUDO $APT -y install git bc bison flex libssl-dev make
@@ -38,11 +46,13 @@ clone_raspberry_repo () {
     $GIT clone --depth=1 https://github.com/raspberrypi/linux "$BUILDDIR"/linux 
 }
 
+# Function for copying the Kernel config
 copy_config () {
     # Copy the custom config to the build directory
    $CP "$BUILDDIR"/config/.config "$BUILDDIR"/linux/. 
 }
 
+# Function for the actual build process
 build_kernel () {
     # Change directory to the kernel directory, Exit option in case the dir doesn't exist
     cd "$BUILDDIR"/linux || exit
@@ -50,11 +60,13 @@ build_kernel () {
     $MAKE -j4 zImage modules dtbs
 }
 
+# Function to handle backups
 backup_boot () {
     # Backup the entire boot directory, compress it and put it in the User's Home Dir
     $TAR -zcvf "$HOME"/boot_backup.tar.gz /boot
 }
 
+# Function for handling the install process
 install_kernel () {
     # Make the kernel modules
     $SUDO $MAKE modules_install
@@ -66,8 +78,10 @@ install_kernel () {
     $SUDO $CP arch/arm/boot/zImage /boot/$KERNEL.img
 }
 
+# Reboot Function
 reboot_system () {
-    # TODO: Add signal here to halt the LED script 
+    # Send a USR2 Signal to the process running the control LED script
+    $SUDO $KILL -USR2 $CONTROLPID
     # Use Systemctl to reboot the system
     $SUDO $SYSTEMCTL reboot -i
 }
@@ -81,5 +95,6 @@ build_kernel
 backup_boot
 install_kernel
 reboot_system
+exit 0
 
 
