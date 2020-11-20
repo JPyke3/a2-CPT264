@@ -32,12 +32,19 @@ poll_cpu () {
 
 initialize
 turn_off_led
+# Loop that will loop forever
+# TODO: Interrupt signal
 while true
 do
+    # Poll the current CPU usage
     poll_cpu
+    # Turn on the LED
     turn_on_led
+    # Sleep for the CPU usage, this is handled in seconds, so if usage is 0.5, then it is half a second
     sleep $USAGE
+    # Turn off the LED after the sleep has finished
     turn_off_led
+    # Sleep for the remainder, if the usage is 0.2 then the script will sleep for 0.8
     sleep $NONUSAGE
 done
 

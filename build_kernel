@@ -20,45 +20,59 @@ SYSTEMCTL="/bin/systemctl"
 KERNEL=kernel7l
 
 create_build_environment () {
+    # Enable the Control CPU script
+    ./control_cpu
+    # Create a build directory for the script
    $MKDIR "$BUILDDIR"
 }
 
 clone_config_repo () {
+    # Clone the config repo using ssh, this is to ensure the repo can remain private
     $GIT clone git@github.com:JPyke3/a2-CPT264.git "$BUILDDIR"/config
 }
 
 clone_raspberry_repo () {
-    # Install depends
+    # Install all needed dependencies for compiling the kernel
     $SUDO $APT -y install git bc bison flex libssl-dev make
-    # Clone Repo
+    # Clone the RaspberryPiOS Repo
     $GIT clone --depth=1 https://github.com/raspberrypi/linux "$BUILDDIR"/linux 
 }
 
 copy_config () {
+    # Copy the custom config to the build directory
    $CP "$BUILDDIR"/config/.config "$BUILDDIR"/linux/. 
 }
 
 build_kernel () {
+    # Change directory to the kernel directory, Exit option in case the dir doesn't exist
     cd "$BUILDDIR"/linux || exit
+    # Compile the Kernel using all cores available to the Raspberry Pi
     $MAKE -j4 zImage modules dtbs
 }
 
 backup_boot () {
+    # Backup the entire boot directory, compress it and put it in the User's Home Dir
     $TAR -zcvf "$HOME"/boot_backup.tar.gz /boot
 }
 
 install_kernel () {
+    # Make the kernel modules
     $SUDO $MAKE modules_install
+    # Move required files to the boot directory
     $SUDO $CP arch/arm/boot/dts/*.dtb /boot/
     $SUDO $CP arch/arm/boot/dts/overlays/*.dtb* /boot/overlays/
     $SUDO $CP arch/arm/boot/dts/overlays/README /boot/overlays/
+    # Move the kernel image file to the boot directory
     $SUDO $CP arch/arm/boot/zImage /boot/$KERNEL.img
 }
 
 reboot_system () {
+    # TODO: Add signal here to halt the LED script 
+    # Use Systemctl to reboot the system
     $SUDO $SYSTEMCTL reboot -i
 }
 
+# Main Method of the bash script
 create_build_environment
 clone_config_repo
 clone_raspberry_repo
