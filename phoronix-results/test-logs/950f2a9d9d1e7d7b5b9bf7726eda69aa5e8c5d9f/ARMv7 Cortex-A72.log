@@ -1,0 +1,21 @@
+#####
+ARMv7 Cortex-A72 - Run 1
+2020-11-20 00:28:46
+#####
+c-ray-mt v1.1
+Rendering took: 779 seconds (779208 milliseconds)
+
+#####
+ARMv7 Cortex-A72 - Run 2
+2020-11-20 00:41:48
+#####
+c-ray-mt v1.1
+Rendering took: 775 seconds (775771 milliseconds)
+
+#####
+ARMv7 Cortex-A72 - Run 3
+2020-11-20 00:54:47
+#####
+c-ray-mt v1.1
+Rendering took: 774 seconds (774468 milliseconds)
+

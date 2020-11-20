@@ -1,0 +1,2 @@
+Cannot create Vulkan instance.
+/build/vulkan-tools-hvsg2w/vulkan-tools-1.1.97+dfsg1/vulkaninfo/vulkaninfo.c:918: failed with VK_ERROR_INCOMPATIBLE_DRIVER

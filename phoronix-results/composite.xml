@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.0.1-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>uniassignment2-results</Title>
+    <LastModified>2020-11-20 01:05:17</LastModified>
+    <TestClient>Phoronix Test Suite v10.0.1 (Finnsnes)</TestClient>
+    <Description>ARMv7 Cortex-A72 testing on Raspbian 10 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>ARMv7 Cortex-A72</Identifier>
+    <Hardware>Processor: ARMv7 Cortex-A72 @ 1.50GHz (4 Cores), Motherboard: BCM2711 Raspberry Pi 4 Model B Rev 1.2, Memory: 4096MB, Disk: 16GB SL16G</Hardware>
+    <Software>OS: Raspbian 10, Kernel: 5.4.77-v7l-s3755145+ (armv7l), Display Server: X Server 1.20.4, Compiler: GCC 8.3.0, File-System: ext4</Software>
+    <User>jacob</User>
+    <TimeStamp>2020-11-19 19:35:54</TimeStamp>
+    <TestClientVersion>10.0.1</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=arm-linux-gnueabihf --disable-libitm --disable-libquadmath --disable-libquadmath-support --disable-sjlj-exceptions --disable-werror --enable-bootstrap --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-nls --enable-objc-gc=auto --enable-plugin --enable-shared --enable-threads=posix --host=arm-linux-gnueabihf --program-prefix=arm-linux-gnueabihf- --target=arm-linux-gnueabihf --with-arch=armv6 --with-default-libstdcxx-abi=new --with-float=hard --with-fpu=vfp --with-gcc-major-version-only --with-target-system-zlib -v","cpu-scaling-governor":"cpufreq-dt ondemand","kernel-parameters":"snd_bcm2835.enable_compat_alsa=0 snd_bcm2835.enable_hdmi=1","python":"Python 2.7.16 + Python 3.7.3"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/ramspeed-1.4.3</Identifier>
+    <Title>RAMspeed SMP</Title>
+    <AppVersion>3.5.0</AppVersion>
+    <Arguments>ADD -b 3</Arguments>
+    <Description>Type: Add - Benchmark: Integer</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>ARMv7 Cortex-A72</Identifier>
+        <Value>4078.66</Value>
+        <RawString>3783.36:4060.43:4199.88:4154.43:4167.78:4177.63:4084.22:3948.81:4131.38</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -march=native"},"test-run-times":"452.68:449.05:444.41:446.01:448.53:446.64:445.46:448.64:446.46"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ramspeed-1.4.3</Identifier>
+    <Title>RAMspeed SMP</Title>
+    <AppVersion>3.5.0</AppVersion>
+    <Arguments>COPY -b 3</Arguments>
+    <Description>Type: Copy - Benchmark: Integer</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>ARMv7 Cortex-A72</Identifier>
+        <Value>4190.86</Value>
+        <RawString>4201.34:4154.34:4216.89</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -march=native"},"test-run-times":"447.63:450.31:445.83"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ramspeed-1.4.3</Identifier>
+    <Title>RAMspeed SMP</Title>
+    <AppVersion>3.5.0</AppVersion>
+    <Arguments>SCALE -b 3</Arguments>
+    <Description>Type: Scale - Benchmark: Integer</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>ARMv7 Cortex-A72</Identifier>
+        <Value>4280.23</Value>
+        <RawString>4217.65:4296.21:4326.84</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -march=native"},"test-run-times":"447.10:445.70:446.61"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ramspeed-1.4.3</Identifier>
+    <Title>RAMspeed SMP</Title>
+    <AppVersion>3.5.0</AppVersion>
+    <Arguments>TRIAD -b 3</Arguments>
+    <Description>Type: Triad - Benchmark: Integer</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>ARMv7 Cortex-A72</Identifier>
+        <Value>4099.66</Value>
+        <RawString>4143.28:4019.9:4135.79</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -march=native"},"test-run-times":"445.90:446.81:451.42"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ramspeed-1.4.3</Identifier>
+    <Title>RAMspeed SMP</Title>
+    <AppVersion>3.5.0</AppVersion>
+    <Arguments>AVERAGE -b 3</Arguments>
+    <Description>Type: Average - Benchmark: Integer</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>ARMv7 Cortex-A72</Identifier>
+        <Value>4150.69</Value>
+        <RawString>4129.02:4128.46:4194.58</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -march=native"},"test-run-times":"447.18:449.69:450.02"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ramspeed-1.4.3</Identifier>
+    <Title>RAMspeed SMP</Title>
+    <AppVersion>3.5.0</AppVersion>
+    <Arguments>ADD -b 6</Arguments>
+    <Description>Type: Add - Benchmark: Floating Point</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>ARMv7 Cortex-A72</Identifier>
+        <Value>4114.84</Value>
+        <RawString>4031.26:4149.79:4163.46</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -march=native"},"test-run-times":"471.18:470.67:470.10"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ramspeed-1.4.3</Identifier>
+    <Title>RAMspeed SMP</Title>
+    <AppVersion>3.5.0</AppVersion>
+    <Arguments>COPY -b 6</Arguments>
+    <Description>Type: Copy - Benchmark: Floating Point</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>ARMv7 Cortex-A72</Identifier>
+        <Value>3190.40</Value>
+        <RawString>3171.66:3178.43:3221.11</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -march=native"},"test-run-times":"468.35:471.33:468.90"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ramspeed-1.4.3</Identifier>
+    <Title>RAMspeed SMP</Title>
+    <AppVersion>3.5.0</AppVersion>
+    <Arguments>SCALE -b 6</Arguments>
+    <Description>Type: Scale - Benchmark: Floating Point</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>ARMv7 Cortex-A72</Identifier>
+        <Value>4499.56</Value>
+        <RawString>4467.29:4457.19:4574.19</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -march=native"},"test-run-times":"471.09:470.94:470.10"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ramspeed-1.4.3</Identifier>
+    <Title>RAMspeed SMP</Title>
+    <AppVersion>3.5.0</AppVersion>
+    <Arguments>TRIAD -b 6</Arguments>
+    <Description>Type: Triad - Benchmark: Floating Point</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>ARMv7 Cortex-A72</Identifier>
+        <Value>4069.08</Value>
+        <RawString>4077.27:4052.94:4077.03</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -march=native"},"test-run-times":"469.92:472.05:471.20"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ramspeed-1.4.3</Identifier>
+    <Title>RAMspeed SMP</Title>
+    <AppVersion>3.5.0</AppVersion>
+    <Arguments>AVERAGE -b 6</Arguments>
+    <Description>Type: Average - Benchmark: Floating Point</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>ARMv7 Cortex-A72</Identifier>
+        <Value>3879.94</Value>
+        <RawString>3858.24:3914.54:3867.03</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -march=native"},"test-run-times":"473.43:470.88:473.24"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/c-ray-1.2.0</Identifier>
+    <Title>C-Ray</Title>
+    <AppVersion>1.1</AppVersion>
+    <Arguments></Arguments>
+    <Description>Total Time - 4K, 16 Rays Per Pixel</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>ARMv7 Cortex-A72</Identifier>
+        <Value>776.482</Value>
+        <RawString>779.208:775.771:774.468</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lm -lpthread -O3"},"test-run-times":"781.03:777.69:777.56"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/scikit-learn-1.1.0</Identifier>
+    <Title>Scikit-Learn</Title>
+    <AppVersion>0.22.1</AppVersion>
+    <Arguments></Arguments>
+    <Description></Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>ARMv7 Cortex-A72</Identifier>
+        <Value>197.747</Value>
+        <RawString>198.216:197.751:197.274</RawString>
+        <JSON>{"test-run-times":"198.22:197.75:197.27"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

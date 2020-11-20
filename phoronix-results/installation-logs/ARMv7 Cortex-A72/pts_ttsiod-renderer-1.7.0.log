@@ -1,0 +1,614 @@
+Archive:  renderer-2.3b.zip
+226f6ba24f368a2b6b9fb7170256cead565c4ba1
+   creating: renderer-2.3b/
+  inflating: renderer-2.3b/.gitattributes  
+  inflating: renderer-2.3b/.gitignore  
+   creating: renderer-2.3b/3D-Objects/
+  inflating: renderer-2.3b/3D-Objects/box-and-plane.ply  
+  inflating: renderer-2.3b/3D-Objects/chessboard.tri  
+  inflating: renderer-2.3b/3D-Objects/dragon_vis.ply  
+  inflating: renderer-2.3b/3D-Objects/kerolamp.ply  
+  inflating: renderer-2.3b/3D-Objects/knot.ply  
+  inflating: renderer-2.3b/3D-Objects/legocar.3ds  
+  inflating: renderer-2.3b/3D-Objects/ludwig.ply  
+  inflating: renderer-2.3b/3D-Objects/millenium.ply  
+  inflating: renderer-2.3b/3D-Objects/pharaoh.ply  
+  inflating: renderer-2.3b/3D-Objects/platform.ply  
+  inflating: renderer-2.3b/3D-Objects/scene.ply  
+  inflating: renderer-2.3b/3D-Objects/single.ply  
+  inflating: renderer-2.3b/3D-Objects/sphere.ply  
+  inflating: renderer-2.3b/3D-Objects/square.ply  
+  inflating: renderer-2.3b/3D-Objects/statue.ply  
+  inflating: renderer-2.3b/3D-Objects/tie.ply  
+  inflating: renderer-2.3b/3D-Objects/torus.ply  
+  inflating: renderer-2.3b/3D-Objects/trainColor.tri  
+  inflating: renderer-2.3b/3D-Objects/x-wing.ply  
+  inflating: renderer-2.3b/AUTHORS   
+  inflating: renderer-2.3b/COPYING   
+  inflating: renderer-2.3b/ChangeLog  
+  inflating: renderer-2.3b/INSTALL   
+  inflating: renderer-2.3b/LICENSE   
+  inflating: renderer-2.3b/Makefile.am  
+  inflating: renderer-2.3b/Makefile.in  
+  inflating: renderer-2.3b/NEWS      
+  inflating: renderer-2.3b/README    
+    linking: renderer-2.3b/README.md  -> README 
+   creating: renderer-2.3b/VisualC/
+   creating: renderer-2.3b/VisualC/Renderer-2.x/
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/ReadMe.txt  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/Renderer-2.x.sln  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/Renderer-2.x.vcproj  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/Renderer-2.x.vcproj.SEMANTIX.ttsiodras.user  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/SDL.dll  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/config.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/lib3ds-1_3.dll  
+   creating: renderer-2.3b/VisualC/Renderer-2.x/lib3ds/
+   creating: renderer-2.3b/VisualC/Renderer-2.x/lib3ds/lib/
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/lib3ds/lib/lib3ds-1_3.lib  
+   creating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/
+   creating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_active.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_audio.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_byteorder.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_cdrom.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_config.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_config_amiga.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_config_dreamcast.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_config_macos.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_config_macosx.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_config_minimal.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_config_nds.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_config_os2.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_config_symbian.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_config_win32.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_copying.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_cpuinfo.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_endian.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_error.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_events.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_getenv.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_joystick.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_keyboard.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_keysym.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_loadso.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_main.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_mouse.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_mutex.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_name.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_opengl.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_platform.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_quit.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_rwops.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_stdinc.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_syswm.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_thread.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_timer.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_types.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_version.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/SDL_video.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/begin_code.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/include/close_code.h  
+   creating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/lib/
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/lib/SDL.lib  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libSDL/lib/SDLmain.lib  
+   creating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb.lib  
+   creating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/_concurrent_queue_internal.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/_tbb_windef.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/aligned_space.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/atomic.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/blocked_range.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/blocked_range2d.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/blocked_range3d.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/cache_aligned_allocator.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/combinable.h  
+   creating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/compat/
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/compat/ppl.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/concurrent_hash_map.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/concurrent_queue.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/concurrent_vector.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/enumerable_thread_specific.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/index.html  
+   creating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/machine/
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/machine/ibm_aix51.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/machine/linux_common.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/machine/linux_ia32.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/machine/linux_ia64.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/machine/linux_intel64.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/machine/mac_ppc.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/machine/windows_ia32.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/machine/windows_intel64.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/mutex.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/null_mutex.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/null_rw_mutex.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/parallel_do.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/parallel_for.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/parallel_for_each.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/parallel_invoke.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/parallel_reduce.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/parallel_scan.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/parallel_sort.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/parallel_while.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/partitioner.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/pipeline.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/queuing_mutex.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/queuing_rw_mutex.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/recursive_mutex.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/scalable_allocator.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/spin_mutex.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/spin_rw_mutex.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/task.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/task_group.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/task_scheduler_init.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/task_scheduler_observer.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/tbb.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/tbb_allocator.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/tbb_config.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/tbb_exception.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/tbb_machine.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/tbb_profiling.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/tbb_stddef.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/tbb_thread.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/tbbmalloc_proxy.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/libtbb/tbb/tick_count.h  
+  inflating: renderer-2.3b/VisualC/Renderer-2.x/tbb.dll  
+   creating: renderer-2.3b/ac-macros/
+  inflating: renderer-2.3b/ac-macros/ax_cflags_gcc_option.m4  
+  inflating: renderer-2.3b/ac-macros/ax_check_compiler_flags.m4  
+  inflating: renderer-2.3b/ac-macros/ax_check_linker_flags.m4  
+  inflating: renderer-2.3b/ac-macros/ax_openmp.m4  
+  inflating: renderer-2.3b/acinclude.m4  
+  inflating: renderer-2.3b/aclocal.m4  
+   creating: renderer-2.3b/build-aux/
+  inflating: renderer-2.3b/build-aux/compile  
+  inflating: renderer-2.3b/build-aux/config.guess  
+  inflating: renderer-2.3b/build-aux/config.sub  
+  inflating: renderer-2.3b/build-aux/depcomp  
+  inflating: renderer-2.3b/build-aux/install-sh  
+  inflating: renderer-2.3b/build-aux/missing  
+  inflating: renderer-2.3b/configure  
+  inflating: renderer-2.3b/configure.ac  
+   creating: renderer-2.3b/contrib/
+  inflating: renderer-2.3b/contrib/README  
+    linking: renderer-2.3b/contrib/bits  -> /usr/include/c++/4.7.0/i686-pc-linux-gnu/bits 
+  inflating: renderer-2.3b/contrib/build.using.IntelCC.and.OpenMP  
+  inflating: renderer-2.3b/contrib/build.using.IntelCC.and.TBB  
+  inflating: renderer-2.3b/contrib/createHelpTexture.sh  
+  inflating: renderer-2.3b/contrib/keys.txt  
+ extracting: renderer-2.3b/contrib/onScreenKeys.txt  
+   creating: renderer-2.3b/debian/
+  inflating: renderer-2.3b/debian/changelog  
+ extracting: renderer-2.3b/debian/compat  
+  inflating: renderer-2.3b/debian/control  
+ extracting: renderer-2.3b/debian/copyright  
+ extracting: renderer-2.3b/debian/files  
+   creating: renderer-2.3b/debian/patches/
+  inflating: renderer-2.3b/debian/patches/create_installable_binary  
+ extracting: renderer-2.3b/debian/patches/series  
+  inflating: renderer-2.3b/debian/renderer.debhelper.log  
+  inflating: renderer-2.3b/debian/renderer.postinst.debhelper  
+  inflating: renderer-2.3b/debian/renderer.postrm.debhelper  
+  inflating: renderer-2.3b/debian/renderer.substvars  
+ extracting: renderer-2.3b/debian/rules  
+   creating: renderer-2.3b/debian/source/
+ extracting: renderer-2.3b/debian/source/format  
+   creating: renderer-2.3b/lib3ds-1.3.0/
+  inflating: renderer-2.3b/lib3ds-1.3.0/3ds-utils.spec.in  
+  inflating: renderer-2.3b/lib3ds-1.3.0/AUTHORS  
+  inflating: renderer-2.3b/lib3ds-1.3.0/COPYING  
+  inflating: renderer-2.3b/lib3ds-1.3.0/ChangeLog  
+  inflating: renderer-2.3b/lib3ds-1.3.0/INSTALL  
+  inflating: renderer-2.3b/lib3ds-1.3.0/Makefile.am  
+  inflating: renderer-2.3b/lib3ds-1.3.0/Makefile.in  
+ extracting: renderer-2.3b/lib3ds-1.3.0/NEWS  
+  inflating: renderer-2.3b/lib3ds-1.3.0/README  
+ extracting: renderer-2.3b/lib3ds-1.3.0/TODO  
+  inflating: renderer-2.3b/lib3ds-1.3.0/aclocal.m4  
+  inflating: renderer-2.3b/lib3ds-1.3.0/compile  
+  inflating: renderer-2.3b/lib3ds-1.3.0/config.guess  
+  inflating: renderer-2.3b/lib3ds-1.3.0/config.h.in  
+  inflating: renderer-2.3b/lib3ds-1.3.0/config.sub  
+  inflating: renderer-2.3b/lib3ds-1.3.0/configure  
+  inflating: renderer-2.3b/lib3ds-1.3.0/configure.ac  
+  inflating: renderer-2.3b/lib3ds-1.3.0/depcomp  
+   creating: renderer-2.3b/lib3ds-1.3.0/examples/
+  inflating: renderer-2.3b/lib3ds-1.3.0/examples/3dsplay.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/install-sh  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds-config.1  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds-config.1.in  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds-config.in  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds.m4  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds.spec.in  
+   creating: renderer-2.3b/lib3ds-1.3.0/lib3ds/
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/Makefile.am  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/Makefile.in  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/atmosphere.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/atmosphere.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/background.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/background.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/camera.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/camera.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/chunk.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/chunk.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/chunktable.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/chunktable.sed  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/ease.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/ease.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/file.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/file.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/io.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/io.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/light.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/light.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/material.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/material.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/matrix.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/matrix.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/mesh.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/mesh.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/node.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/node.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/quat.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/quat.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/shadow.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/shadow.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/tcb.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/tcb.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/tracks.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/tracks.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/types.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/types.txt  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/vector.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/vector.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/viewport.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/lib3ds/viewport.h  
+  inflating: renderer-2.3b/lib3ds-1.3.0/ltmain.sh  
+   creating: renderer-2.3b/lib3ds-1.3.0/m4/
+  inflating: renderer-2.3b/lib3ds-1.3.0/m4/libtool.m4  
+  inflating: renderer-2.3b/lib3ds-1.3.0/m4/ltoptions.m4  
+  inflating: renderer-2.3b/lib3ds-1.3.0/m4/ltsugar.m4  
+  inflating: renderer-2.3b/lib3ds-1.3.0/m4/ltversion.m4  
+  inflating: renderer-2.3b/lib3ds-1.3.0/m4/lt~obsolete.m4  
+  inflating: renderer-2.3b/lib3ds-1.3.0/missing  
+   creating: renderer-2.3b/lib3ds-1.3.0/msvc8/
+  inflating: renderer-2.3b/lib3ds-1.3.0/msvc8/3dsdump.vcproj  
+  inflating: renderer-2.3b/lib3ds-1.3.0/msvc8/3dsplay.vcproj  
+  inflating: renderer-2.3b/lib3ds-1.3.0/msvc8/lib3ds.rc  
+  inflating: renderer-2.3b/lib3ds-1.3.0/msvc8/lib3ds.sln  
+  inflating: renderer-2.3b/lib3ds-1.3.0/msvc8/lib3ds.vcproj  
+   creating: renderer-2.3b/lib3ds-1.3.0/tools/
+  inflating: renderer-2.3b/lib3ds-1.3.0/tools/3dsdump.1  
+  inflating: renderer-2.3b/lib3ds-1.3.0/tools/3dsdump.1.in  
+  inflating: renderer-2.3b/lib3ds-1.3.0/tools/3dsdump.c  
+  inflating: renderer-2.3b/lib3ds-1.3.0/tools/Makefile.am  
+  inflating: renderer-2.3b/lib3ds-1.3.0/tools/Makefile.in  
+   creating: renderer-2.3b/src/
+  inflating: renderer-2.3b/src/3d.h  
+  inflating: renderer-2.3b/src/Algebra.h  
+  inflating: renderer-2.3b/src/BVH.cc  
+  inflating: renderer-2.3b/src/BVH.h  
+  inflating: renderer-2.3b/src/Base3d.cc  
+  inflating: renderer-2.3b/src/Base3d.h  
+  inflating: renderer-2.3b/src/Camera.cc  
+  inflating: renderer-2.3b/src/Camera.h  
+  inflating: renderer-2.3b/src/Clock.h  
+  inflating: renderer-2.3b/src/Defines.h  
+  inflating: renderer-2.3b/src/Exceptions.h  
+  inflating: renderer-2.3b/src/Fillers.h  
+  inflating: renderer-2.3b/src/HelpKeys.h  
+  inflating: renderer-2.3b/src/Keyboard.cc  
+  inflating: renderer-2.3b/src/Keyboard.h  
+  inflating: renderer-2.3b/src/Light.cc  
+  inflating: renderer-2.3b/src/Light.h  
+  inflating: renderer-2.3b/src/LightingEq.h  
+  inflating: renderer-2.3b/src/Loader.cc  
+  inflating: renderer-2.3b/src/MLAA.cc  
+  inflating: renderer-2.3b/src/MLAA.h  
+  inflating: renderer-2.3b/src/Makefile.am  
+  inflating: renderer-2.3b/src/Makefile.in  
+  inflating: renderer-2.3b/src/OnlineHelpKeys.h  
+  inflating: renderer-2.3b/src/Rasterizers.cc  
+  inflating: renderer-2.3b/src/Raytracer.cc  
+  inflating: renderer-2.3b/src/ScanConverter.h  
+  inflating: renderer-2.3b/src/Scene.h  
+  inflating: renderer-2.3b/src/Screen.cc  
+  inflating: renderer-2.3b/src/Screen.h  
+  inflating: renderer-2.3b/src/Types.h  
+  inflating: renderer-2.3b/src/Wu.cc  
+  inflating: renderer-2.3b/src/Wu.h  
+  inflating: renderer-2.3b/src/config.h.in  
+ extracting: renderer-2.3b/src/cppcheck.sh  
+  inflating: renderer-2.3b/src/renderer.cc  
+  inflating: renderer-2.3b/src/showShadowMap.cc  
+finishing deferred symbolic links:
+  renderer-2.3b/README.md -> README
+  renderer-2.3b/contrib/bits -> /usr/include/c++/4.7.0/i686-pc-linux-gnu/bits
+configure: ************************************************************
+configure: ** Intel MLAA antialiasing is disabled! use --enable-mlaa **
+configure: ** (provided your CPU has SSE2 instructions...            **
+configure: ************************************************************
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+checking target system type... armv7l-unknown-linux-gnueabihf
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for ranlib... ranlib
+checking for sdl-config... /usr/bin/sdl-config
+checking for SDL - version >= 1.2.0... yes
+checking for Intel TBB support... no
+checking for stingy MS stack under MinGW... no
+checking for OpenMP flag of C++ compiler... -fopenmp
+checking for GCC maturity in OpenMP support... yes
+checking for main in -lstdc++... yes
+checking for atexit... yes
+checking for memset... yes
+checking for sqrt... yes
+checking for strrchr... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for memory.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for stdbool.h that conforms to C99... no
+checking for _Bool... no
+checking for ANSI C header files... (cached) yes
+checking for size_t... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking CXXFLAGS for gcc -Wall... -Wall
+checking CXXFLAGS for gcc -Wextra... -Wextra
+checking CXXFLAGS for gcc -fomit-frame-pointer... -fomit-frame-pointer
+checking CXXFLAGS for gcc -ffast-math... -ffast-math
+checking CXXFLAGS for gcc -funsafe-math-optimizations... -funsafe-math-optimizations
+checking CXXFLAGS for gcc -mtune=native... -mtune=native
+checking CXXFLAGS for gcc -flto... -flto
+checking whether the linker accepts -fwhole-program... yes
+checking for SSE... no
+checking for SSE2... no
+checking for SSSE3... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/config.h
+config.status: executing depfiles commands
+=== configuring in lib3ds-1.3.0 (/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b/lib3ds-1.3.0)
+configure: running /bin/bash ./configure --disable-option-checking '--prefix=/usr/local'  --cache-file=/dev/null --srcdir=.
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for debugging mode... no
+checking for floor... no
+checking for memset... yes
+checking for pow... no
+checking for sqrt... no
+checking for strrchr... yes
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ accepts -g... (cached) yes
+checking dependency style of g++... (cached) gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int8_t... yes
+checking for size_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint8_t... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating lib3ds-config
+config.status: creating lib3ds-config.1
+config.status: creating Makefile
+config.status: creating lib3ds/Makefile
+config.status: creating tools/Makefile
+config.status: creating tools/3dsdump.1
+config.status: creating lib3ds.spec
+config.status: creating 3ds-utils.spec
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default commands
+Making all in lib3ds-1.3.0
+make[1]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b/lib3ds-1.3.0'
+make  all-recursive
+make[2]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b/lib3ds-1.3.0'
+Making all in lib3ds
+make[3]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b/lib3ds-1.3.0/lib3ds'
+  CC       io.lo
+  CC       vector.lo
+  CC       matrix.lo
+  CC       quat.lo
+  CC       tcb.lo
+  CC       ease.lo
+  CC       chunk.lo
+  CC       file.lo
+  CC       background.lo
+  CC       atmosphere.lo
+  CC       shadow.lo
+  CC       viewport.lo
+  CC       material.lo
+  CC       mesh.lo
+  CC       camera.lo
+  CC       light.lo
+  CC       tracks.lo
+  CC       node.lo
+  CCLD     lib3ds.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b/lib3ds-1.3.0/lib3ds'
+Making all in tools
+make[3]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b/lib3ds-1.3.0/tools'
+  CC       3dsdump.o
+  CCLD     3dsdump
+make[3]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b/lib3ds-1.3.0/tools'
+make[3]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b/lib3ds-1.3.0'
+make[3]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b/lib3ds-1.3.0'
+make[2]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b/lib3ds-1.3.0'
+make[1]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b/lib3ds-1.3.0'
+Making all in src
+make[1]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b/src'
+make  all-am
+make[2]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b/src'
+  CXX      renderer-renderer.o
+  CXX      renderer-Camera.o
+  CXX      renderer-Keyboard.o
+  CXX      renderer-Light.o
+  CXX      renderer-Rasterizers.o
+  CXX      renderer-Screen.o
+  CXX      renderer-Base3d.o
+renderer.cc: In function ‘int main(int, char**)’:
+renderer.cc:277:2: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  auto_ptr<Light> pLight(
+  ^~~~~~~~
+In file included from /usr/include/c++/8/memory:80,
+                 from renderer.cc:28:
+/usr/include/c++/8/bits/unique_ptr.h:53:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+renderer.cc:288:2: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+  auto_ptr<Light> pLight2(
+  ^~~~~~~~
+In file included from /usr/include/c++/8/memory:80,
+                 from renderer.cc:28:
+/usr/include/c++/8/bits/unique_ptr.h:53:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+  CXX      renderer-Wu.o
+  CXX      renderer-BVH.o
+  CXX      renderer-Loader.o
+  CXX      renderer-Raytracer.o
+  CXX      showShadowMap-showShadowMap.o
+  CXX      showShadowMap-Keyboard.o
+  CXXLD    showShadowMap
+  CXXLD    renderer
+make[2]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b/src'
+make[1]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b/src'
+make[1]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/ttsiod-renderer-1.7.0/renderer-2.3b'

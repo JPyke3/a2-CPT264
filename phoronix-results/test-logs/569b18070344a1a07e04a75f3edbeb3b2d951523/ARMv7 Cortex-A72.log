@@ -1,0 +1,303 @@
+#####
+ARMv7 Cortex-A72 - Run 1
+2020-11-19 23:59:13
+#####
+RAMspeed/SMP (GENERIC) v3.5.0 by Rhett M. Hollander and Paul V. Bolotoff, 2002-09
+
+8Gb per pass mode, 2 processes
+
+10-benchmark FLOATmem BatchRun mode
+
+Benchmark #1:
+FL-POINT  Copy:      3257.16 MB/s
+FL-POINT  Scale:     4349.14 MB/s
+FL-POINT  Add:       4013.83 MB/s
+FL-POINT  Triad:     3736.19 MB/s
+---
+FL-POINT  AVERAGE:   3839.08 MB/s
+
+Benchmark #2:
+FL-POINT  Copy:      3176.58 MB/s
+FL-POINT  Scale:     4128.98 MB/s
+FL-POINT  Add:       3750.36 MB/s
+FL-POINT  Triad:     3731.09 MB/s
+---
+FL-POINT  AVERAGE:   3696.75 MB/s
+
+Benchmark #3:
+FL-POINT  Copy:      3115.64 MB/s
+FL-POINT  Scale:     4316.94 MB/s
+FL-POINT  Add:       3891.42 MB/s
+FL-POINT  Triad:     3950.52 MB/s
+---
+FL-POINT  AVERAGE:   3818.63 MB/s
+
+Benchmark #4:
+FL-POINT  Copy:      3195.60 MB/s
+FL-POINT  Scale:     4472.95 MB/s
+FL-POINT  Add:       3828.05 MB/s
+FL-POINT  Triad:     3951.63 MB/s
+---
+FL-POINT  AVERAGE:   3862.06 MB/s
+
+Benchmark #5:
+FL-POINT  Copy:      3105.73 MB/s
+FL-POINT  Scale:     4448.35 MB/s
+FL-POINT  Add:       4287.46 MB/s
+FL-POINT  Triad:     4282.49 MB/s
+---
+FL-POINT  AVERAGE:   4031.01 MB/s
+
+Benchmark #6:
+FL-POINT  Copy:      3077.23 MB/s
+FL-POINT  Scale:     4190.62 MB/s
+FL-POINT  Add:       4272.45 MB/s
+FL-POINT  Triad:     4035.40 MB/s
+---
+FL-POINT  AVERAGE:   3893.92 MB/s
+
+Benchmark #7:
+FL-POINT  Copy:      3109.13 MB/s
+FL-POINT  Scale:     4397.94 MB/s
+FL-POINT  Add:       3847.12 MB/s
+FL-POINT  Triad:     3792.15 MB/s
+---
+FL-POINT  AVERAGE:   3786.59 MB/s
+
+Benchmark #8:
+FL-POINT  Copy:      3087.83 MB/s
+FL-POINT  Scale:     4189.87 MB/s
+FL-POINT  Add:       4284.87 MB/s
+FL-POINT  Triad:     3883.33 MB/s
+---
+FL-POINT  AVERAGE:   3861.47 MB/s
+
+Benchmark #9:
+FL-POINT  Copy:      3214.82 MB/s
+FL-POINT  Scale:     4325.36 MB/s
+FL-POINT  Add:       4277.83 MB/s
+FL-POINT  Triad:     4277.35 MB/s
+---
+FL-POINT  AVERAGE:   4023.84 MB/s
+
+Benchmark #10:
+FL-POINT  Copy:      3078.87 MB/s
+FL-POINT  Scale:     4387.92 MB/s
+FL-POINT  Add:       3867.70 MB/s
+FL-POINT  Triad:     3741.88 MB/s
+---
+FL-POINT  AVERAGE:   3769.10 MB/s
+
+FL-POINT BatchRun  Copy:      3141.86 MB/s
+FL-POINT BatchRun  Scale:     4320.81 MB/s
+FL-POINT BatchRun  Add:       4032.11 MB/s
+FL-POINT BatchRun  Triad:     3938.20 MB/s
+---
+FL-POINT BatchRun  AVERAGE:   3858.24 MB/s
+RAMspeed/SMP (GENERIC) v3.5.0 by Rhett M. Hollander and Paul V. Bolotoff, 2002-09
+
+8Gb per pass mode, 2 processes
+
+
+#####
+ARMv7 Cortex-A72 - Run 2
+2020-11-20 00:07:08
+#####
+RAMspeed/SMP (GENERIC) v3.5.0 by Rhett M. Hollander and Paul V. Bolotoff, 2002-09
+
+8Gb per pass mode, 2 processes
+
+10-benchmark FLOATmem BatchRun mode
+
+Benchmark #1:
+FL-POINT  Copy:      3259.50 MB/s
+FL-POINT  Scale:     4605.15 MB/s
+FL-POINT  Add:       3920.82 MB/s
+FL-POINT  Triad:     4269.02 MB/s
+---
+FL-POINT  AVERAGE:   4013.62 MB/s
+
+Benchmark #2:
+FL-POINT  Copy:      3151.63 MB/s
+FL-POINT  Scale:     4172.37 MB/s
+FL-POINT  Add:       4195.96 MB/s
+FL-POINT  Triad:     3965.35 MB/s
+---
+FL-POINT  AVERAGE:   3871.33 MB/s
+
+Benchmark #3:
+FL-POINT  Copy:      3218.13 MB/s
+FL-POINT  Scale:     4364.85 MB/s
+FL-POINT  Add:       4195.16 MB/s
+FL-POINT  Triad:     3815.02 MB/s
+---
+FL-POINT  AVERAGE:   3898.29 MB/s
+
+Benchmark #4:
+FL-POINT  Copy:      3203.20 MB/s
+FL-POINT  Scale:     4119.39 MB/s
+FL-POINT  Add:       4270.76 MB/s
+FL-POINT  Triad:     3863.50 MB/s
+---
+FL-POINT  AVERAGE:   3864.21 MB/s
+
+Benchmark #5:
+FL-POINT  Copy:      3067.59 MB/s
+FL-POINT  Scale:     4608.87 MB/s
+FL-POINT  Add:       4116.11 MB/s
+FL-POINT  Triad:     4281.24 MB/s
+---
+FL-POINT  AVERAGE:   4018.45 MB/s
+
+Benchmark #6:
+FL-POINT  Copy:      3228.23 MB/s
+FL-POINT  Scale:     4548.31 MB/s
+FL-POINT  Add:       4277.01 MB/s
+FL-POINT  Triad:     3936.29 MB/s
+---
+FL-POINT  AVERAGE:   3997.46 MB/s
+
+Benchmark #7:
+FL-POINT  Copy:      3127.04 MB/s
+FL-POINT  Scale:     4328.73 MB/s
+FL-POINT  Add:       4097.06 MB/s
+FL-POINT  Triad:     3791.24 MB/s
+---
+FL-POINT  AVERAGE:   3836.02 MB/s
+
+Benchmark #8:
+FL-POINT  Copy:      3115.41 MB/s
+FL-POINT  Scale:     4322.23 MB/s
+FL-POINT  Add:       4037.50 MB/s
+FL-POINT  Triad:     4055.40 MB/s
+---
+FL-POINT  AVERAGE:   3882.63 MB/s
+
+Benchmark #9:
+FL-POINT  Copy:      3205.85 MB/s
+FL-POINT  Scale:     4382.79 MB/s
+FL-POINT  Add:       3803.08 MB/s
+FL-POINT  Triad:     3894.48 MB/s
+---
+FL-POINT  AVERAGE:   3821.55 MB/s
+
+Benchmark #10:
+FL-POINT  Copy:      3117.97 MB/s
+FL-POINT  Scale:     4273.13 MB/s
+FL-POINT  Add:       4107.98 MB/s
+FL-POINT  Triad:     4268.18 MB/s
+---
+FL-POINT  AVERAGE:   3941.81 MB/s
+
+FL-POINT BatchRun  Copy:      3169.45 MB/s
+FL-POINT BatchRun  Scale:     4372.58 MB/s
+FL-POINT BatchRun  Add:       4102.14 MB/s
+FL-POINT BatchRun  Triad:     4013.97 MB/s
+---
+FL-POINT BatchRun  AVERAGE:   3914.54 MB/s
+RAMspeed/SMP (GENERIC) v3.5.0 by Rhett M. Hollander and Paul V. Bolotoff, 2002-09
+
+8Gb per pass mode, 2 processes
+
+
+#####
+ARMv7 Cortex-A72 - Run 3
+2020-11-20 00:15:03
+#####
+RAMspeed/SMP (GENERIC) v3.5.0 by Rhett M. Hollander and Paul V. Bolotoff, 2002-09
+
+8Gb per pass mode, 2 processes
+
+10-benchmark FLOATmem BatchRun mode
+
+Benchmark #1:
+FL-POINT  Copy:      3067.34 MB/s
+FL-POINT  Scale:     4285.32 MB/s
+FL-POINT  Add:       3754.18 MB/s
+FL-POINT  Triad:     4034.08 MB/s
+---
+FL-POINT  AVERAGE:   3785.23 MB/s
+
+Benchmark #2:
+FL-POINT  Copy:      3152.09 MB/s
+FL-POINT  Scale:     4333.89 MB/s
+FL-POINT  Add:       4040.09 MB/s
+FL-POINT  Triad:     3735.29 MB/s
+---
+FL-POINT  AVERAGE:   3815.34 MB/s
+
+Benchmark #3:
+FL-POINT  Copy:      3157.71 MB/s
+FL-POINT  Scale:     4052.76 MB/s
+FL-POINT  Add:       4007.45 MB/s
+FL-POINT  Triad:     3959.03 MB/s
+---
+FL-POINT  AVERAGE:   3794.24 MB/s
+
+Benchmark #4:
+FL-POINT  Copy:      3089.27 MB/s
+FL-POINT  Scale:     4600.10 MB/s
+FL-POINT  Add:       4275.48 MB/s
+FL-POINT  Triad:     4102.33 MB/s
+---
+FL-POINT  AVERAGE:   4016.80 MB/s
+
+Benchmark #5:
+FL-POINT  Copy:      3190.39 MB/s
+FL-POINT  Scale:     4180.63 MB/s
+FL-POINT  Add:       4212.16 MB/s
+FL-POINT  Triad:     3902.13 MB/s
+---
+FL-POINT  AVERAGE:   3871.33 MB/s
+
+Benchmark #6:
+FL-POINT  Copy:      3234.24 MB/s
+FL-POINT  Scale:     4491.36 MB/s
+FL-POINT  Add:       3745.80 MB/s
+FL-POINT  Triad:     3764.03 MB/s
+---
+FL-POINT  AVERAGE:   3808.86 MB/s
+
+Benchmark #7:
+FL-POINT  Copy:      3109.70 MB/s
+FL-POINT  Scale:     4272.02 MB/s
+FL-POINT  Add:       4136.84 MB/s
+FL-POINT  Triad:     3926.33 MB/s
+---
+FL-POINT  AVERAGE:   3861.22 MB/s
+
+Benchmark #8:
+FL-POINT  Copy:      3236.48 MB/s
+FL-POINT  Scale:     4596.70 MB/s
+FL-POINT  Add:       4279.89 MB/s
+FL-POINT  Triad:     4076.14 MB/s
+---
+FL-POINT  AVERAGE:   4047.30 MB/s
+
+Benchmark #9:
+FL-POINT  Copy:      3146.79 MB/s
+FL-POINT  Scale:     4338.88 MB/s
+FL-POINT  Add:       3789.75 MB/s
+FL-POINT  Triad:     3962.80 MB/s
+---
+FL-POINT  AVERAGE:   3809.56 MB/s
+
+Benchmark #10:
+FL-POINT  Copy:      3211.62 MB/s
+FL-POINT  Scale:     4159.89 MB/s
+FL-POINT  Add:       3890.07 MB/s
+FL-POINT  Triad:     4179.97 MB/s
+---
+FL-POINT  AVERAGE:   3860.39 MB/s
+
+FL-POINT BatchRun  Copy:      3159.56 MB/s
+FL-POINT BatchRun  Scale:     4331.16 MB/s
+FL-POINT BatchRun  Add:       4013.17 MB/s
+FL-POINT BatchRun  Triad:     3964.21 MB/s
+---
+FL-POINT BatchRun  AVERAGE:   3867.03 MB/s
+RAMspeed/SMP (GENERIC) v3.5.0 by Rhett M. Hollander and Paul V. Bolotoff, 2002-09
+
+8Gb per pass mode, 2 processes
+
+
