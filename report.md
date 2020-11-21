@@ -43,9 +43,10 @@ Scikit learn is a performance benchmark that is python based and benchmarks mach
 ## iPerf
 iPerf is a performance benchmark that can be used to determine network speeds of devices, in this case we are mesuring the WiFi performance of various Raspberry Pi models that support WiFi, and seeing how they stack up in comparison to each other.
 
+![](./media/wifi-performance)
 
-
-*Results from other models [4]*
+*Results from other models of Raspberry Pi [9]*
+*Results from WiFi 6 AX1650 [10]*
 
 # Analysis
 From these results we can determine various poinrts about the specific raspberry Pi model, this analysis will be broken down based on each component of the Raspberry Pi:
@@ -54,8 +55,9 @@ The two CPU bound tests were C-Ray and SciKit learn, in this case the Raspberry 
 
 ## Memory
 The leap in memory size on the Raspberry Pi 4 is huge, the Pi 4 Features various memory configurations [5]. But the one that was used for the purposes of these benchmarks was a 4GB model. The previous models of Raspberry Pi topped out at 1GB of Memory. This obviously lead to the major gains in performance from the RAMSpeed tests. However, the increase in performance is not up to the Size increase alone, the Raspberry Pi 4 features DDR4 Memory [5] whereas the Raspberry Pi 2 features DDR2 Memory, the difference between DDR2 and DDR 4 is significatnt [8], DDR4 features a lower Operating voltage, as well as a higher transfer rate, this means that the DDR4 memory on the raspberry pi will mean that the Raspberry Pi is more energy efficient. And will score higher on the tests
-## Networking
 
+## Networking
+The networking on the Raspberry Pi is handled by the Raspberry Pi's SoC or System on Chip. The Raspberry Pi 3 used a BCM2837 whereas the Raspberry pi 4 uses a BCM2711. Whilst these two chips vary in some aspects, the WiFi performance should be identical as they both use a Dual band 802.11 b/g/n/ac WiFi Chip. We can see that the Pi 4 has a slight advantage over the 3 because if it's more efficient SoC layout. This means that thee Raspberry Pi supports the WiFi standards 1-5, the Raspberry Pi does not support WiFi 6 however, and we can see the massive performance gain from using WiFi 6 just be analyzing the graphs, all of these tests were taken from 5 ft away from a WiFi router with direct line of sight. And our WiFi 6 AX1650 really demonstrates the possible performance gains over WiFi 5
 
 # Conclusions
 The Raspberry Pi 4 has shown strengths in the areas of CPU performance, Memory performance, and Networking performance in comparison to the previous models of Raspberry Pi. With updated modern components in comparison to previous models, the Raspberry Pi 4 Scores very well in comparison to previous models when you use benchmarking software.
@@ -70,3 +72,6 @@ The Raspberry Pi 4 has shown strengths in the areas of CPU performance, Memory p
 [6] = https://www.raspberrypi.org/products/raspberry-pi-3-model-b/?resellerType=home
 [7] = https://ark.intel.com/content/www/us/en/ark/products/76347/intel-core-i5-4300m-processor-3m-cache-up-to-3-30-ghz.html
 [8] = https://www.crucial.com/articles/about-memory/difference-among-ddr2-ddr3-and-ddr4-memory
+[9] = http://magpi.raspberrypi.org/articles/raspberry%20-pi-4-specs-benchmarks
+[10] = https://hothardware.com/reviews/killer-wi-fi-6-ax1650-review?page=3
+[11] = https://www.howtogeek.com/368332/wi-fi-6-what%E2%80%99s-different-and-why-it-matters/#:~:text=Wi%2DFi%206%20is%20the,hardware%20was%20released%20throughout%202020
