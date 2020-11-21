@@ -29,8 +29,8 @@ turn_off_led () {
 
 # Polls the CPU and writes the usage to $USAGE and the remainder of $USAGE to $NONUSAGE
 poll_cpu () {
-    USAGE=`${TOP} -bn1 | ${GREP} 'Cpu(s)' | ${AWK} '{printf "%.0f\n", \$2}' | ${AWK} '{ print $1 / 100}'`
-    NONUSAGE=`${TOP} -bn1 | ${GREP} 'Cpu(s)' | ${AWK} '{printf "%.0f\n", 100 - \$2}' | ${AWK} '{ print $1 / 100}'`
+    USAGE=$(${TOP} -bn1 | ${GREP} 'Cpu(s)' | ${AWK} '{printf "%.0f\n", $2}' | ${AWK} '{ print $1 / 100}')
+    NONUSAGE=$(${TOP} -bn1 | ${GREP} 'Cpu(s)' | ${AWK} '{printf "%.0f\n", 100 - $2}' | ${AWK} '{ print $1 / 100}')
 }
 
 # Function to handle cleaning up from this bash script, this will revert the pi back to it's original state
