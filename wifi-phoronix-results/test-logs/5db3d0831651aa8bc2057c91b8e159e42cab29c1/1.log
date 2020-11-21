@@ -1,0 +1,105 @@
+#####
+1 - Run 1
+2020-11-21 00:56:03
+#####
+iperf 3.7
+Linux monaco 5.4.77-v7l-s3755145+ #1 SMP Tue Nov 17 18:47:10 CET 2020 armv7l
+Control connection MSS 32768
+Time: Fri, 20 Nov 2020 23:55:51 GMT
+Connecting to host localhost, port 5201
+      Cookie: se35el4yek3jggvphohfj5vrotrxlq5wdlyq
+      TCP MSS: 32768 (default)
+[  9] local ::1 port 55664 connected to ::1 port 5201
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  9]   0.00-1.00   sec   576 MBytes  4830 Mbits/sec    0   1.12 MBytes       
+[  9]   1.00-2.00   sec   575 MBytes  4824 Mbits/sec    0   1.12 MBytes       
+[  9]   2.00-3.00   sec   578 MBytes  4846 Mbits/sec    0   1.12 MBytes       
+[  9]   3.00-4.00   sec   568 MBytes  4761 Mbits/sec    0   1.25 MBytes       
+[  9]   4.00-5.00   sec   559 MBytes  4687 Mbits/sec    0   1.44 MBytes       
+[  9]   5.00-6.00   sec   576 MBytes  4833 Mbits/sec    0   1.44 MBytes       
+[  9]   6.00-7.00   sec   575 MBytes  4824 Mbits/sec    0   1.44 MBytes       
+[  9]   7.00-8.00   sec   578 MBytes  4843 Mbits/sec    0   1.56 MBytes       
+[  9]   8.00-9.00   sec   576 MBytes  4836 Mbits/sec    0   1.56 MBytes       
+[  9]   9.00-10.00  sec   575 MBytes  4822 Mbits/sec    0   1.56 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Retr
+[  9]   0.00-10.00  sec  5.60 GBytes  4811 Mbits/sec    0             sender
+[  9]   0.00-10.00  sec  5.59 GBytes  4804 Mbits/sec                  receiver
+CPU Utilization: local/sender 38.6% (0.4%u/38.2%s), remote/receiver 76.0% (0.5%u/75.5%s)
+snd_tcp_congestion cubic
+rcv_tcp_congestion cubic
+
+iperf Done.
+
+#####
+1 - Run 2
+2020-11-21 00:56:20
+#####
+iperf 3.7
+Linux monaco 5.4.77-v7l-s3755145+ #1 SMP Tue Nov 17 18:47:10 CET 2020 armv7l
+Control connection MSS 32768
+Time: Fri, 20 Nov 2020 23:56:08 GMT
+Connecting to host localhost, port 5201
+      Cookie: rg2x3uflkp3qdyget6tyr4w6sh5knqwcgu3i
+      TCP MSS: 32768 (default)
+[  9] local ::1 port 55668 connected to ::1 port 5201
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  9]   0.00-1.00   sec   578 MBytes  4843 Mbits/sec    0   1.06 MBytes       
+[  9]   1.00-2.00   sec   571 MBytes  4793 Mbits/sec    0   1.06 MBytes       
+[  9]   2.00-3.00   sec   575 MBytes  4823 Mbits/sec    0   1.06 MBytes       
+[  9]   3.00-4.00   sec   580 MBytes  4865 Mbits/sec    0   1.12 MBytes       
+[  9]   4.00-5.00   sec   571 MBytes  4789 Mbits/sec    0   1.12 MBytes       
+[  9]   5.00-6.00   sec   574 MBytes  4816 Mbits/sec    0   1.12 MBytes       
+[  9]   6.00-7.00   sec   574 MBytes  4813 Mbits/sec    0   1.12 MBytes       
+[  9]   7.00-8.00   sec   574 MBytes  4813 Mbits/sec    0   1.12 MBytes       
+[  9]   8.00-9.00   sec   570 MBytes  4781 Mbits/sec    0   1.12 MBytes       
+[  9]   9.00-10.00  sec   569 MBytes  4771 Mbits/sec    0   1.31 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Retr
+[  9]   0.00-10.00  sec  5.60 GBytes  4811 Mbits/sec    0             sender
+[  9]   0.00-10.00  sec  5.59 GBytes  4802 Mbits/sec                  receiver
+CPU Utilization: local/sender 38.6% (0.7%u/37.9%s), remote/receiver 76.6% (0.3%u/76.3%s)
+snd_tcp_congestion cubic
+rcv_tcp_congestion cubic
+
+iperf Done.
+
+#####
+1 - Run 3
+2020-11-21 00:56:35
+#####
+iperf 3.7
+Linux monaco 5.4.77-v7l-s3755145+ #1 SMP Tue Nov 17 18:47:10 CET 2020 armv7l
+Control connection MSS 32768
+Time: Fri, 20 Nov 2020 23:56:25 GMT
+Connecting to host localhost, port 5201
+      Cookie: lxfpcx3mk3tjfrcnksstbmovf7sh5pi3vjlp
+      TCP MSS: 32768 (default)
+[  9] local ::1 port 55672 connected to ::1 port 5201
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 10 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  9]   0.00-1.00   sec   571 MBytes  4791 Mbits/sec    0   1.19 MBytes       
+[  9]   1.00-2.00   sec   575 MBytes  4821 Mbits/sec    0   1.19 MBytes       
+[  9]   2.00-3.00   sec   578 MBytes  4845 Mbits/sec    0   1.19 MBytes       
+[  9]   3.00-4.00   sec   576 MBytes  4837 Mbits/sec    0   1.19 MBytes       
+[  9]   4.00-5.00   sec   581 MBytes  4876 Mbits/sec    0   1.19 MBytes       
+[  9]   5.00-6.00   sec   575 MBytes  4820 Mbits/sec    0   1.19 MBytes       
+[  9]   6.00-7.00   sec   576 MBytes  4837 Mbits/sec    0   1.19 MBytes       
+[  9]   7.00-8.00   sec   580 MBytes  4863 Mbits/sec    0   1.19 MBytes       
+[  9]   8.00-9.00   sec   579 MBytes  4858 Mbits/sec    0   1.19 MBytes       
+[  9]   9.00-10.00  sec   580 MBytes  4863 Mbits/sec    0   1.19 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Retr
+[  9]   0.00-10.00  sec  5.64 GBytes  4841 Mbits/sec    0             sender
+[  9]   0.00-10.00  sec  5.63 GBytes  4834 Mbits/sec                  receiver
+CPU Utilization: local/sender 39.6% (0.6%u/39.0%s), remote/receiver 76.8% (0.6%u/76.2%s)
+snd_tcp_congestion cubic
+rcv_tcp_congestion cubic
+
+iperf Done.
+

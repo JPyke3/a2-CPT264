@@ -1,0 +1,76 @@
+Module                  Size  Used by
+binfmt_misc            20480  1
+fuse                  114688  5
+xt_conntrack           16384  1
+xt_MASQUERADE          16384  1
+nf_conntrack_netlink    45056  0
+nft_counter            16384  15
+cmac                   16384  1
+xt_addrtype            16384  2
+nft_compat             20480  4
+nft_chain_nat          16384  4
+nf_nat                 49152  2 xt_MASQUERADE,nft_chain_nat
+nf_conntrack          135168  4 xt_MASQUERADE,nf_conntrack_netlink,xt_conntrack,nf_nat
+nf_defrag_ipv6         20480  1 nf_conntrack
+nf_defrag_ipv4         16384  1 nf_conntrack
+rfcomm                 45056  4
+bnep                   20480  2
+nf_tables             139264  45 nft_compat,nft_chain_nat,nft_counter
+nfnetlink              16384  4 nft_compat,nf_conntrack_netlink,nf_tables
+br_netfilter           28672  0
+bridge                139264  1 br_netfilter
+hci_uart               40960  1
+btbcm                  16384  1 hci_uart
+bluetooth             360448  29 hci_uart,bnep,btbcm,rfcomm
+ecdh_generic           16384  2 bluetooth
+ecc                    36864  1 ecdh_generic
+overlay               102400  0
+8021q                  32768  0
+garp                   16384  1 8021q
+stp                    16384  2 garp,bridge
+llc                    16384  3 garp,bridge,stp
+brcmfmac              319488  0
+brcmutil               20480  1 brcmfmac
+vc4                   237568  0
+v3d                    69632  0
+cec                    49152  1 vc4
+sha256_generic         16384  0
+gpu_sched              36864  1 v3d
+libsha256              20480  1 sha256_generic
+drm_kms_helper        184320  2 vc4
+cfg80211              675840  1 brcmfmac
+drm                   458752  5 v3d,vc4,gpu_sched,drm_kms_helper
+rfkill                 28672  6 bluetooth,cfg80211
+bcm2835_isp            32768  0
+bcm2835_v4l2           45056  0
+bcm2835_codec          36864  0
+raspberrypi_hwmon      16384  0
+bcm2835_mmal_vchiq     28672  3 bcm2835_isp,bcm2835_codec,bcm2835_v4l2
+drm_panel_orientation_quirks    16384  1 drm
+v4l2_mem2mem           32768  1 bcm2835_codec
+videobuf2_dma_contig    20480  2 bcm2835_isp,bcm2835_codec
+videobuf2_vmalloc      16384  1 bcm2835_v4l2
+snd_soc_core          200704  1 vc4
+snd_bcm2835            28672  1
+videobuf2_memops       16384  2 videobuf2_dma_contig,videobuf2_vmalloc
+videobuf2_v4l2         28672  4 bcm2835_isp,bcm2835_codec,bcm2835_v4l2,v4l2_mem2mem
+snd_compress           20480  1 snd_soc_core
+videobuf2_common       57344  5 bcm2835_isp,bcm2835_codec,bcm2835_v4l2,v4l2_mem2mem,videobuf2_v4l2
+snd_pcm_dmaengine      16384  1 snd_soc_core
+snd_pcm                94208  4 vc4,snd_pcm_dmaengine,snd_bcm2835,snd_soc_core
+snd_timer              32768  1 snd_pcm
+videodev              237568  6 bcm2835_isp,bcm2835_codec,videobuf2_common,bcm2835_v4l2,v4l2_mem2mem,videobuf2_v4l2
+mc                     40960  6 bcm2835_isp,bcm2835_codec,videobuf2_common,videodev,v4l2_mem2mem,videobuf2_v4l2
+vc_sm_cma              32768  2 bcm2835_isp,bcm2835_mmal_vchiq
+rpivid_mem             16384  0
+snd                    73728  7 snd_compress,snd_timer,snd_bcm2835,snd_soc_core,snd_pcm
+syscopyarea            16384  1 drm_kms_helper
+sysfillrect            16384  1 drm_kms_helper
+sysimgblt              16384  1 drm_kms_helper
+fb_sys_fops            16384  1 drm_kms_helper
+uio_pdrv_genirq        16384  0
+uio                    20480  1 uio_pdrv_genirq
+i2c_dev                20480  0
+ip_tables              28672  0
+x_tables               32768  5 ip_tables,nft_compat,xt_MASQUERADE,xt_addrtype,xt_conntrack
+ipv6                  458752  40 br_netfilter,bridge

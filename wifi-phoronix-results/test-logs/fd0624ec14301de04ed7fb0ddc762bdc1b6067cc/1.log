@@ -1,0 +1,321 @@
+#####
+1 - Run 1
+2020-11-21 00:59:29
+#####
+iperf 3.7
+Linux monaco 5.4.77-v7l-s3755145+ #1 SMP Tue Nov 17 18:47:10 CET 2020 armv7l
+Control connection MSS 32768
+Setting UDP block size to 32768
+Time: Fri, 20 Nov 2020 23:59:17 GMT
+Connecting to host localhost, port 5201
+      Cookie: izdenpc5v73hb6o4ycbh67d5fcswhfylq7zd
+      Target Bitrate: 1048576
+[  9] local ::1 port 60556 connected to ::1 port 5201
+[ 11] local ::1 port 48327 connected to ::1 port 5201
+[ 13] local ::1 port 39875 connected to ::1 port 5201
+[ 15] local ::1 port 41484 connected to ::1 port 5201
+[ 17] local ::1 port 45980 connected to ::1 port 5201
+Starting Test: protocol: UDP, 5 streams, 32768 byte blocks, omitting 0 seconds, 10 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  9]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   0.00-1.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   1.00-2.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   2.00-3.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   3.00-4.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   3.00-4.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   3.00-4.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   3.00-4.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   3.00-4.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   3.00-4.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   4.00-5.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   4.00-5.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   4.00-5.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   4.00-5.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   4.00-5.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   4.00-5.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   5.00-6.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   6.00-7.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   7.00-8.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   8.00-9.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   9.00-10.00  sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  9]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/40 (0%)  sender
+[  9]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.023 ms  0/40 (0%)  receiver
+[ 11]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/40 (0%)  sender
+[ 11]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.019 ms  0/40 (0%)  receiver
+[ 13]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/40 (0%)  sender
+[ 13]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.019 ms  0/40 (0%)  receiver
+[ 15]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/40 (0%)  sender
+[ 15]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.018 ms  0/40 (0%)  receiver
+[ 17]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/40 (0%)  sender
+[ 17]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.018 ms  0/40 (0%)  receiver
+[SUM]   0.00-10.00  sec  6.25 MBytes  5.24 Mbits/sec  0.000 ms  0/200 (0%)  sender
+[SUM]   0.00-10.00  sec  6.25 MBytes  5.24 Mbits/sec  0.019 ms  0/200 (0%)  receiver
+CPU Utilization: local/sender 4.6% (0.0%u/4.6%s), remote/receiver 0.4% (0.0%u/0.4%s)
+
+iperf Done.
+
+#####
+1 - Run 2
+2020-11-21 00:59:46
+#####
+iperf 3.7
+Linux monaco 5.4.77-v7l-s3755145+ #1 SMP Tue Nov 17 18:47:10 CET 2020 armv7l
+Control connection MSS 32768
+Setting UDP block size to 32768
+Time: Fri, 20 Nov 2020 23:59:34 GMT
+Connecting to host localhost, port 5201
+      Cookie: jgnhtqxojlodwy2m37paly45eqsfryyyegjl
+      Target Bitrate: 1048576
+[  9] local ::1 port 34226 connected to ::1 port 5201
+[ 11] local ::1 port 55689 connected to ::1 port 5201
+[ 13] local ::1 port 55462 connected to ::1 port 5201
+[ 15] local ::1 port 40133 connected to ::1 port 5201
+[ 17] local ::1 port 38514 connected to ::1 port 5201
+Starting Test: protocol: UDP, 5 streams, 32768 byte blocks, omitting 0 seconds, 10 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  9]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   0.00-1.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   1.00-2.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   2.00-3.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   3.00-4.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   3.00-4.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   3.00-4.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   3.00-4.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   3.00-4.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   3.00-4.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   4.00-5.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   4.00-5.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   4.00-5.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   4.00-5.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   4.00-5.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   4.00-5.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   5.00-6.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   6.00-7.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   7.00-8.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   8.00-9.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   9.00-10.00  sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  9]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/40 (0%)  sender
+[  9]   0.00-10.01  sec  1.25 MBytes  1.05 Mbits/sec  0.010 ms  0/40 (0%)  receiver
+[ 11]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/40 (0%)  sender
+[ 11]   0.00-10.01  sec  1.25 MBytes  1.05 Mbits/sec  0.003 ms  0/40 (0%)  receiver
+[ 13]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/40 (0%)  sender
+[ 13]   0.00-10.01  sec  1.25 MBytes  1.05 Mbits/sec  0.003 ms  0/40 (0%)  receiver
+[ 15]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/40 (0%)  sender
+[ 15]   0.00-10.01  sec  1.25 MBytes  1.05 Mbits/sec  0.003 ms  0/40 (0%)  receiver
+[ 17]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/40 (0%)  sender
+[ 17]   0.00-10.01  sec  1.25 MBytes  1.05 Mbits/sec  0.004 ms  0/40 (0%)  receiver
+[SUM]   0.00-10.00  sec  6.25 MBytes  5.24 Mbits/sec  0.000 ms  0/200 (0%)  sender
+[SUM]   0.00-10.01  sec  6.25 MBytes  5.24 Mbits/sec  0.005 ms  0/200 (0%)  receiver
+CPU Utilization: local/sender 4.5% (0.7%u/3.8%s), remote/receiver 0.5% (0.0%u/0.5%s)
+
+iperf Done.
+
+#####
+1 - Run 3
+2020-11-21 01:00:02
+#####
+iperf 3.7
+Linux monaco 5.4.77-v7l-s3755145+ #1 SMP Tue Nov 17 18:47:10 CET 2020 armv7l
+Control connection MSS 32768
+Setting UDP block size to 32768
+Time: Fri, 20 Nov 2020 23:59:52 GMT
+Connecting to host localhost, port 5201
+      Cookie: c624hsuxxm6erxwxmafxicjkui62ksjt6bat
+      Target Bitrate: 1048576
+[  9] local ::1 port 43665 connected to ::1 port 5201
+[ 11] local ::1 port 44453 connected to ::1 port 5201
+[ 13] local ::1 port 57383 connected to ::1 port 5201
+[ 15] local ::1 port 47437 connected to ::1 port 5201
+[ 17] local ::1 port 42099 connected to ::1 port 5201
+Starting Test: protocol: UDP, 5 streams, 32768 byte blocks, omitting 0 seconds, 10 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  9]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   0.00-1.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   0.00-1.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   1.00-2.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   1.00-2.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   2.00-3.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   2.00-3.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   3.00-4.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   3.00-4.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   3.00-4.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   3.00-4.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   3.00-4.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   3.00-4.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   4.00-5.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   4.00-5.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   4.00-5.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   4.00-5.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   4.00-5.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   4.00-5.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   5.00-6.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   5.00-6.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   6.00-7.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   6.00-7.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   7.00-8.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   7.00-8.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   8.00-9.00   sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   8.00-9.00   sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec  4  
+[ 11]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec  4  
+[ 13]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec  4  
+[ 15]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec  4  
+[ 17]   9.00-10.00  sec   128 KBytes  1.05 Mbits/sec  4  
+[SUM]   9.00-10.00  sec   640 KBytes  5.24 Mbits/sec  20  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  9]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/40 (0%)  sender
+[  9]   0.00-10.01  sec  1.25 MBytes  1.05 Mbits/sec  0.011 ms  0/40 (0%)  receiver
+[ 11]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/40 (0%)  sender
+[ 11]   0.00-10.01  sec  1.25 MBytes  1.05 Mbits/sec  0.007 ms  0/40 (0%)  receiver
+[ 13]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/40 (0%)  sender
+[ 13]   0.00-10.01  sec  1.25 MBytes  1.05 Mbits/sec  0.007 ms  0/40 (0%)  receiver
+[ 15]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/40 (0%)  sender
+[ 15]   0.00-10.01  sec  1.25 MBytes  1.05 Mbits/sec  0.007 ms  0/40 (0%)  receiver
+[ 17]   0.00-10.00  sec  1.25 MBytes  1.05 Mbits/sec  0.000 ms  0/40 (0%)  sender
+[ 17]   0.00-10.01  sec  1.25 MBytes  1.05 Mbits/sec  0.007 ms  0/40 (0%)  receiver
+[SUM]   0.00-10.00  sec  6.25 MBytes  5.24 Mbits/sec  0.000 ms  0/200 (0%)  sender
+[SUM]   0.00-10.01  sec  6.25 MBytes  5.24 Mbits/sec  0.008 ms  0/200 (0%)  receiver
+CPU Utilization: local/sender 4.5% (0.5%u/4.0%s), remote/receiver 0.5% (0.0%u/0.5%s)
+
+iperf Done.
+

@@ -1,0 +1,102 @@
+#####
+1 - Run 1
+2020-11-20 19:50:58
+#####
+iperf 3.7
+Linux monaco 5.4.77-v7l-s3755145+ #1 SMP Tue Nov 17 18:47:10 CET 2020 armv7l
+Control connection MSS 32768
+Setting UDP block size to 32768
+Time: Fri, 20 Nov 2020 18:50:46 GMT
+Connecting to host localhost, port 5201
+      Cookie: hxi7qtiyigqm33ti4ol3vpqvoohnafmg2c36
+      Target Bitrate: 1000000000
+[  9] local ::1 port 58179 connected to ::1 port 5201
+Starting Test: protocol: UDP, 1 streams, 32768 byte blocks, omitting 0 seconds, 10 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  9]   0.00-1.00   sec   119 MBytes   999 Mbits/sec  3813  
+[  9]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[  9]   2.00-3.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[  9]   3.00-4.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[  9]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[  9]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[  9]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[  9]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[  9]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[  9]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3815  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  9]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38145 (0%)  sender
+[  9]   0.00-10.01  sec  1.16 GBytes   996 Mbits/sec  0.041 ms  148/38145 (0.39%)  receiver
+CPU Utilization: local/sender 23.0% (0.0%u/23.0%s), remote/receiver 17.7% (5.9%u/11.8%s)
+
+iperf Done.
+
+#####
+1 - Run 2
+2020-11-20 19:51:15
+#####
+iperf 3.7
+Linux monaco 5.4.77-v7l-s3755145+ #1 SMP Tue Nov 17 18:47:10 CET 2020 armv7l
+Control connection MSS 32768
+Setting UDP block size to 32768
+Time: Fri, 20 Nov 2020 18:51:03 GMT
+Connecting to host localhost, port 5201
+      Cookie: eek532y4ncsw2a3wezd7rxsuf3ufqbo3clb3
+      Target Bitrate: 1000000000
+[  9] local ::1 port 39843 connected to ::1 port 5201
+Starting Test: protocol: UDP, 1 streams, 32768 byte blocks, omitting 0 seconds, 10 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  9]   0.00-1.00   sec   119 MBytes   999 Mbits/sec  3813  
+[  9]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[  9]   2.00-3.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[  9]   3.00-4.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[  9]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[  9]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[  9]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[  9]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[  9]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[  9]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3815  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  9]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38145 (0%)  sender
+[  9]   0.00-10.00  sec  1.16 GBytes   996 Mbits/sec  0.043 ms  141/38145 (0.37%)  receiver
+CPU Utilization: local/sender 22.9% (0.0%u/22.9%s), remote/receiver 17.6% (5.9%u/11.8%s)
+
+iperf Done.
+
+#####
+1 - Run 3
+2020-11-20 19:51:30
+#####
+iperf 3.7
+Linux monaco 5.4.77-v7l-s3755145+ #1 SMP Tue Nov 17 18:47:10 CET 2020 armv7l
+Control connection MSS 32768
+Setting UDP block size to 32768
+Time: Fri, 20 Nov 2020 18:51:20 GMT
+Connecting to host localhost, port 5201
+      Cookie: 353njyvln3bjlpvhbgcenijugro4lyn4oin2
+      Target Bitrate: 1000000000
+[  9] local ::1 port 44678 connected to ::1 port 5201
+Starting Test: protocol: UDP, 1 streams, 32768 byte blocks, omitting 0 seconds, 10 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  9]   0.00-1.00   sec   119 MBytes   999 Mbits/sec  3813  
+[  9]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[  9]   2.00-3.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[  9]   3.00-4.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[  9]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[  9]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[  9]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[  9]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[  9]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[  9]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3815  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  9]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38145 (0%)  sender
+[  9]   0.00-10.01  sec  1.16 GBytes   995 Mbits/sec  0.045 ms  170/38145 (0.45%)  receiver
+CPU Utilization: local/sender 23.3% (3.8%u/19.5%s), remote/receiver 18.0% (6.0%u/12.0%s)
+
+iperf Done.
+

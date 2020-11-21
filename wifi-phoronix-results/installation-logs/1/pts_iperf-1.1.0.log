@@ -1,0 +1,448 @@
+iperf-3.7/
+iperf-3.7/.github/
+iperf-3.7/.github/CONTRIBUTING.md
+iperf-3.7/.github/ISSUE_TEMPLATE.md
+iperf-3.7/.github/PULL_REQUEST_TEMPLATE.md
+iperf-3.7/.gitignore
+iperf-3.7/.travis.yml
+iperf-3.7/INSTALL
+iperf-3.7/LICENSE
+iperf-3.7/Makefile.am
+iperf-3.7/Makefile.in
+iperf-3.7/README.md
+iperf-3.7/RELNOTES.md
+iperf-3.7/aclocal.m4
+iperf-3.7/bootstrap.sh
+iperf-3.7/config/
+iperf-3.7/config/ax_check_openssl.m4
+iperf-3.7/config/compile
+iperf-3.7/config/config.guess
+iperf-3.7/config/config.sub
+iperf-3.7/config/depcomp
+iperf-3.7/config/install-sh
+iperf-3.7/config/ltmain.sh
+iperf-3.7/config/missing
+iperf-3.7/config/mkinstalldirs
+iperf-3.7/config/test-driver
+iperf-3.7/configure
+iperf-3.7/configure.ac
+iperf-3.7/contrib/
+iperf-3.7/contrib/README.txt
+iperf-3.7/contrib/iperf3.gp
+iperf-3.7/contrib/iperf3.service
+iperf-3.7/contrib/iperf3_to_gnuplot.py
+iperf-3.7/docs/
+iperf-3.7/docs/2017-04-27.txt
+iperf-3.7/docs/2017-06-06.txt
+iperf-3.7/docs/Makefile
+iperf-3.7/docs/_esnet/
+iperf-3.7/docs/_esnet/LICENSE
+iperf-3.7/docs/_esnet/README.rst
+iperf-3.7/docs/_esnet/deploy.sh
+iperf-3.7/docs/_esnet/static/
+iperf-3.7/docs/_esnet/static/ESnet_Final_Logos_All_Blue_Circle_Stamp_RGB.png
+iperf-3.7/docs/_esnet/static/esnet.css
+iperf-3.7/docs/_esnet/static/favicon.ico
+iperf-3.7/docs/_esnet/static/icon-github.png
+iperf-3.7/docs/_esnet/static/logo-esnet-ball-sm.png
+iperf-3.7/docs/_esnet/static/logo-esnet-ball.png
+iperf-3.7/docs/_esnet/static/logo-esnet-name.png
+iperf-3.7/docs/_esnet/static/logo-esnet.png
+iperf-3.7/docs/_esnet/templates/
+iperf-3.7/docs/_esnet/templates/layout.html
+iperf-3.7/docs/_esnet/templates/navbar.html
+iperf-3.7/docs/_esnet/templates/relations.html
+iperf-3.7/docs/building.rst
+iperf-3.7/docs/conf.py
+iperf-3.7/docs/dev.rst
+iperf-3.7/docs/faq.rst
+iperf-3.7/docs/index.rst
+iperf-3.7/docs/invoking.rst
+iperf-3.7/docs/news.rst
+iperf-3.7/docs/obtaining.rst
+iperf-3.7/examples/
+iperf-3.7/examples/Makefile.am
+iperf-3.7/examples/Makefile.in
+iperf-3.7/examples/mic.c
+iperf-3.7/examples/mis.c
+iperf-3.7/iperf3.spec.in
+iperf-3.7/make_release
+iperf-3.7/src/
+iperf-3.7/src/Makefile.am
+iperf-3.7/src/Makefile.in
+iperf-3.7/src/cjson.c
+iperf-3.7/src/cjson.h
+iperf-3.7/src/dscp.c
+iperf-3.7/src/flowlabel.h
+iperf-3.7/src/iperf.h
+iperf-3.7/src/iperf3.1
+iperf-3.7/src/iperf_api.c
+iperf-3.7/src/iperf_api.h
+iperf-3.7/src/iperf_auth.c
+iperf-3.7/src/iperf_auth.h
+iperf-3.7/src/iperf_client_api.c
+iperf-3.7/src/iperf_config.h.in
+iperf-3.7/src/iperf_error.c
+iperf-3.7/src/iperf_locale.c
+iperf-3.7/src/iperf_locale.h
+iperf-3.7/src/iperf_sctp.c
+iperf-3.7/src/iperf_sctp.h
+iperf-3.7/src/iperf_server_api.c
+iperf-3.7/src/iperf_tcp.c
+iperf-3.7/src/iperf_tcp.h
+iperf-3.7/src/iperf_time.c
+iperf-3.7/src/iperf_time.h
+iperf-3.7/src/iperf_udp.c
+iperf-3.7/src/iperf_udp.h
+iperf-3.7/src/iperf_util.c
+iperf-3.7/src/iperf_util.h
+iperf-3.7/src/libiperf.3
+iperf-3.7/src/main.c
+iperf-3.7/src/net.c
+iperf-3.7/src/net.h
+iperf-3.7/src/portable_endian.h
+iperf-3.7/src/queue.h
+iperf-3.7/src/t_api.c
+iperf-3.7/src/t_timer.c
+iperf-3.7/src/t_units.c
+iperf-3.7/src/t_uuid.c
+iperf-3.7/src/tcp_info.c
+iperf-3.7/src/timer.c
+iperf-3.7/src/timer.h
+iperf-3.7/src/units.c
+iperf-3.7/src/units.h
+iperf-3.7/src/version.h.in
+iperf-3.7/test_commands.sh
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of gcc... gcc3
+checking for ranlib... ranlib
+checking whether ln -s works... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking how to convert armv7l-unknown-linux-gnueabihf file names to armv7l-unknown-linux-gnueabihf format... func_convert_file_noop
+checking how to convert armv7l-unknown-linux-gnueabihf file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... (cached) ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ANSI C header files... (cached) yes
+checking for library containing floor... -lm
+checking for library containing socket... none required
+checking for library containing inet_ntop... none required
+checking for an ANSI C-conforming const... yes
+checking poll.h usability... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking for netinet/sctp.h... no
+checking endian.h usability... yes
+checking endian.h presence... yes
+checking for endian.h... yes
+checking for pkg-config... pkg-config
+checking whether compiling and linking against OpenSSL works... yes
+checking TCP_CONGESTION socket option... yes
+checking IPv6 flowlabel support... yes
+checking for cpuset_setaffinity... no
+checking for sched_setaffinity... yes
+checking for SetProcessAffinityMask... no
+checking for daemon... yes
+checking for sendfile... yes
+checking for getline... yes
+checking SO_MAX_PACING_RATE socket option... yes
+checking for library containing clock_gettime... none required
+checking for clock_gettime... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/version.h
+config.status: creating examples/Makefile
+config.status: creating iperf3.spec
+config.status: creating src/iperf_config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+Making all in src
+make[1]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7/src'
+make  all-am
+make[2]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7/src'
+gcc -DHAVE_CONFIG_H -I.    -g -O3 -march=native -Wall -MT iperf3-main.o -MD -MP -MF .deps/iperf3-main.Tpo -c -o iperf3-main.o `test -f 'main.c' || echo './'`main.c
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT cjson.lo -MD -MP -MF .deps/cjson.Tpo -c -o cjson.lo cjson.c
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT iperf_api.lo -MD -MP -MF .deps/iperf_api.Tpo -c -o iperf_api.lo iperf_api.c
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT iperf_error.lo -MD -MP -MF .deps/iperf_error.Tpo -c -o iperf_error.lo iperf_error.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_api.lo -MD -MP -MF .deps/iperf_api.Tpo -c iperf_api.c  -fPIC -DPIC -o .libs/iperf_api.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_error.lo -MD -MP -MF .deps/iperf_error.Tpo -c iperf_error.c  -fPIC -DPIC -o .libs/iperf_error.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT cjson.lo -MD -MP -MF .deps/cjson.Tpo -c cjson.c  -fPIC -DPIC -o .libs/cjson.o
+cjson.c: In function ‘ensure’:
+cjson.c:375:23: warning: unsigned conversion from ‘long long int’ to ‘size_t’ {aka ‘unsigned int’} changes value from ‘9223372036854775807’ to ‘4294967295’ [-Woverflow]
+             newsize = LLONG_MAX;
+                       ^~~~~~~~~
+mv -f .deps/iperf3-main.Tpo .deps/iperf3-main.Po
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT iperf_auth.lo -MD -MP -MF .deps/iperf_auth.Tpo -c -o iperf_auth.lo iperf_auth.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_auth.lo -MD -MP -MF .deps/iperf_auth.Tpo -c iperf_auth.c  -fPIC -DPIC -o .libs/iperf_auth.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_error.lo -MD -MP -MF .deps/iperf_error.Tpo -c iperf_error.c -o iperf_error.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_auth.lo -MD -MP -MF .deps/iperf_auth.Tpo -c iperf_auth.c -o iperf_auth.o >/dev/null 2>&1
+mv -f .deps/iperf_error.Tpo .deps/iperf_error.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT iperf_client_api.lo -MD -MP -MF .deps/iperf_client_api.Tpo -c -o iperf_client_api.lo iperf_client_api.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_client_api.lo -MD -MP -MF .deps/iperf_client_api.Tpo -c iperf_client_api.c  -fPIC -DPIC -o .libs/iperf_client_api.o
+mv -f .deps/iperf_auth.Tpo .deps/iperf_auth.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT iperf_locale.lo -MD -MP -MF .deps/iperf_locale.Tpo -c -o iperf_locale.lo iperf_locale.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_locale.lo -MD -MP -MF .deps/iperf_locale.Tpo -c iperf_locale.c  -fPIC -DPIC -o .libs/iperf_locale.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_locale.lo -MD -MP -MF .deps/iperf_locale.Tpo -c iperf_locale.c -o iperf_locale.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT cjson.lo -MD -MP -MF .deps/cjson.Tpo -c cjson.c -o cjson.o >/dev/null 2>&1
+mv -f .deps/iperf_locale.Tpo .deps/iperf_locale.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT iperf_server_api.lo -MD -MP -MF .deps/iperf_server_api.Tpo -c -o iperf_server_api.lo iperf_server_api.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_client_api.lo -MD -MP -MF .deps/iperf_client_api.Tpo -c iperf_client_api.c -o iperf_client_api.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_server_api.lo -MD -MP -MF .deps/iperf_server_api.Tpo -c iperf_server_api.c  -fPIC -DPIC -o .libs/iperf_server_api.o
+mv -f .deps/iperf_client_api.Tpo .deps/iperf_client_api.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT iperf_tcp.lo -MD -MP -MF .deps/iperf_tcp.Tpo -c -o iperf_tcp.lo iperf_tcp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_tcp.lo -MD -MP -MF .deps/iperf_tcp.Tpo -c iperf_tcp.c  -fPIC -DPIC -o .libs/iperf_tcp.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_server_api.lo -MD -MP -MF .deps/iperf_server_api.Tpo -c iperf_server_api.c -o iperf_server_api.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_tcp.lo -MD -MP -MF .deps/iperf_tcp.Tpo -c iperf_tcp.c -o iperf_tcp.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_api.lo -MD -MP -MF .deps/iperf_api.Tpo -c iperf_api.c -o iperf_api.o >/dev/null 2>&1
+mv -f .deps/iperf_server_api.Tpo .deps/iperf_server_api.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT iperf_udp.lo -MD -MP -MF .deps/iperf_udp.Tpo -c -o iperf_udp.lo iperf_udp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_udp.lo -MD -MP -MF .deps/iperf_udp.Tpo -c iperf_udp.c  -fPIC -DPIC -o .libs/iperf_udp.o
+mv -f .deps/cjson.Tpo .deps/cjson.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT iperf_sctp.lo -MD -MP -MF .deps/iperf_sctp.Tpo -c -o iperf_sctp.lo iperf_sctp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_sctp.lo -MD -MP -MF .deps/iperf_sctp.Tpo -c iperf_sctp.c  -fPIC -DPIC -o .libs/iperf_sctp.o
+mv -f .deps/iperf_tcp.Tpo .deps/iperf_tcp.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT iperf_util.lo -MD -MP -MF .deps/iperf_util.Tpo -c -o iperf_util.lo iperf_util.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_util.lo -MD -MP -MF .deps/iperf_util.Tpo -c iperf_util.c  -fPIC -DPIC -o .libs/iperf_util.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_udp.lo -MD -MP -MF .deps/iperf_udp.Tpo -c iperf_udp.c -o iperf_udp.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_sctp.lo -MD -MP -MF .deps/iperf_sctp.Tpo -c iperf_sctp.c -o iperf_sctp.o >/dev/null 2>&1
+mv -f .deps/iperf_sctp.Tpo .deps/iperf_sctp.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT iperf_time.lo -MD -MP -MF .deps/iperf_time.Tpo -c -o iperf_time.lo iperf_time.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_util.lo -MD -MP -MF .deps/iperf_util.Tpo -c iperf_util.c -o iperf_util.o >/dev/null 2>&1
+mv -f .deps/iperf_udp.Tpo .deps/iperf_udp.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT dscp.lo -MD -MP -MF .deps/dscp.Tpo -c -o dscp.lo dscp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_time.lo -MD -MP -MF .deps/iperf_time.Tpo -c iperf_time.c  -fPIC -DPIC -o .libs/iperf_time.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT dscp.lo -MD -MP -MF .deps/dscp.Tpo -c dscp.c  -fPIC -DPIC -o .libs/dscp.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT iperf_time.lo -MD -MP -MF .deps/iperf_time.Tpo -c iperf_time.c -o iperf_time.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT dscp.lo -MD -MP -MF .deps/dscp.Tpo -c dscp.c -o dscp.o >/dev/null 2>&1
+mv -f .deps/iperf_time.Tpo .deps/iperf_time.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT net.lo -MD -MP -MF .deps/net.Tpo -c -o net.lo net.c
+mv -f .deps/iperf_util.Tpo .deps/iperf_util.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT tcp_info.lo -MD -MP -MF .deps/tcp_info.Tpo -c -o tcp_info.lo tcp_info.c
+mv -f .deps/dscp.Tpo .deps/dscp.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT timer.lo -MD -MP -MF .deps/timer.Tpo -c -o timer.lo timer.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT net.lo -MD -MP -MF .deps/net.Tpo -c net.c  -fPIC -DPIC -o .libs/net.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT tcp_info.lo -MD -MP -MF .deps/tcp_info.Tpo -c tcp_info.c  -fPIC -DPIC -o .libs/tcp_info.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT timer.lo -MD -MP -MF .deps/timer.Tpo -c timer.c  -fPIC -DPIC -o .libs/timer.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT net.lo -MD -MP -MF .deps/net.Tpo -c net.c -o net.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT tcp_info.lo -MD -MP -MF .deps/tcp_info.Tpo -c tcp_info.c -o tcp_info.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT timer.lo -MD -MP -MF .deps/timer.Tpo -c timer.c -o timer.o >/dev/null 2>&1
+mv -f .deps/timer.Tpo .deps/timer.Plo
+mv -f .deps/tcp_info.Tpo .deps/tcp_info.Plo
+/bin/bash ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -O3 -march=native -Wall -MT units.lo -MD -MP -MF .deps/units.Tpo -c -o units.lo units.c
+gcc -DHAVE_CONFIG_H -I.    -g -O3 -march=native -Wall -MT t_timer-t_timer.o -MD -MP -MF .deps/t_timer-t_timer.Tpo -c -o t_timer-t_timer.o `test -f 't_timer.c' || echo './'`t_timer.c
+mv -f .deps/net.Tpo .deps/net.Plo
+gcc -DHAVE_CONFIG_H -I.    -g -O3 -march=native -Wall -MT t_units-t_units.o -MD -MP -MF .deps/t_units-t_units.Tpo -c -o t_units-t_units.o `test -f 't_units.c' || echo './'`t_units.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT units.lo -MD -MP -MF .deps/units.Tpo -c units.c  -fPIC -DPIC -o .libs/units.o
+mv -f .deps/t_timer-t_timer.Tpo .deps/t_timer-t_timer.Po
+gcc -DHAVE_CONFIG_H -I.    -g -O3 -march=native -Wall -MT t_uuid-t_uuid.o -MD -MP -MF .deps/t_uuid-t_uuid.Tpo -c -o t_uuid-t_uuid.o `test -f 't_uuid.c' || echo './'`t_uuid.c
+mv -f .deps/t_uuid-t_uuid.Tpo .deps/t_uuid-t_uuid.Po
+gcc -DHAVE_CONFIG_H -I.    -g -O3 -march=native -Wall -MT t_api-t_api.o -MD -MP -MF .deps/t_api-t_api.Tpo -c -o t_api-t_api.o `test -f 't_api.c' || echo './'`t_api.c
+mv -f .deps/t_units-t_units.Tpo .deps/t_units-t_units.Po
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-main.o -MD -MP -MF .deps/iperf3_profile-main.Tpo -c -o iperf3_profile-main.o `test -f 'main.c' || echo './'`main.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -O3 -march=native -Wall -MT units.lo -MD -MP -MF .deps/units.Tpo -c units.c -o units.o >/dev/null 2>&1
+mv -f .deps/t_api-t_api.Tpo .deps/t_api-t_api.Po
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-cjson.o -MD -MP -MF .deps/iperf3_profile-cjson.Tpo -c -o iperf3_profile-cjson.o `test -f 'cjson.c' || echo './'`cjson.c
+cjson.c: In function ‘ensure’:
+cjson.c:375:23: warning: unsigned conversion from ‘long long int’ to ‘size_t’ {aka ‘unsigned int’} changes value from ‘9223372036854775807’ to ‘4294967295’ [-Woverflow]
+             newsize = LLONG_MAX;
+                       ^~~~~~~~~
+mv -f .deps/iperf3_profile-main.Tpo .deps/iperf3_profile-main.Po
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-iperf_api.o -MD -MP -MF .deps/iperf3_profile-iperf_api.Tpo -c -o iperf3_profile-iperf_api.o `test -f 'iperf_api.c' || echo './'`iperf_api.c
+mv -f .deps/units.Tpo .deps/units.Plo
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-iperf_error.o -MD -MP -MF .deps/iperf3_profile-iperf_error.Tpo -c -o iperf3_profile-iperf_error.o `test -f 'iperf_error.c' || echo './'`iperf_error.c
+mv -f .deps/iperf_api.Tpo .deps/iperf_api.Plo
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-iperf_auth.o -MD -MP -MF .deps/iperf3_profile-iperf_auth.Tpo -c -o iperf3_profile-iperf_auth.o `test -f 'iperf_auth.c' || echo './'`iperf_auth.c
+mv -f .deps/iperf3_profile-iperf_error.Tpo .deps/iperf3_profile-iperf_error.Po
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-iperf_client_api.o -MD -MP -MF .deps/iperf3_profile-iperf_client_api.Tpo -c -o iperf3_profile-iperf_client_api.o `test -f 'iperf_client_api.c' || echo './'`iperf_client_api.c
+mv -f .deps/iperf3_profile-iperf_auth.Tpo .deps/iperf3_profile-iperf_auth.Po
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-iperf_locale.o -MD -MP -MF .deps/iperf3_profile-iperf_locale.Tpo -c -o iperf3_profile-iperf_locale.o `test -f 'iperf_locale.c' || echo './'`iperf_locale.c
+mv -f .deps/iperf3_profile-iperf_locale.Tpo .deps/iperf3_profile-iperf_locale.Po
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-iperf_server_api.o -MD -MP -MF .deps/iperf3_profile-iperf_server_api.Tpo -c -o iperf3_profile-iperf_server_api.o `test -f 'iperf_server_api.c' || echo './'`iperf_server_api.c
+mv -f .deps/iperf3_profile-iperf_client_api.Tpo .deps/iperf3_profile-iperf_client_api.Po
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-iperf_tcp.o -MD -MP -MF .deps/iperf3_profile-iperf_tcp.Tpo -c -o iperf3_profile-iperf_tcp.o `test -f 'iperf_tcp.c' || echo './'`iperf_tcp.c
+mv -f .deps/iperf3_profile-iperf_tcp.Tpo .deps/iperf3_profile-iperf_tcp.Po
+mv -f .deps/iperf3_profile-iperf_server_api.Tpo .deps/iperf3_profile-iperf_server_api.Po
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-iperf_udp.o -MD -MP -MF .deps/iperf3_profile-iperf_udp.Tpo -c -o iperf3_profile-iperf_udp.o `test -f 'iperf_udp.c' || echo './'`iperf_udp.c
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-iperf_sctp.o -MD -MP -MF .deps/iperf3_profile-iperf_sctp.Tpo -c -o iperf3_profile-iperf_sctp.o `test -f 'iperf_sctp.c' || echo './'`iperf_sctp.c
+mv -f .deps/iperf3_profile-cjson.Tpo .deps/iperf3_profile-cjson.Po
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-iperf_util.o -MD -MP -MF .deps/iperf3_profile-iperf_util.Tpo -c -o iperf3_profile-iperf_util.o `test -f 'iperf_util.c' || echo './'`iperf_util.c
+mv -f .deps/iperf3_profile-iperf_sctp.Tpo .deps/iperf3_profile-iperf_sctp.Po
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-iperf_time.o -MD -MP -MF .deps/iperf3_profile-iperf_time.Tpo -c -o iperf3_profile-iperf_time.o `test -f 'iperf_time.c' || echo './'`iperf_time.c
+mv -f .deps/iperf3_profile-iperf_udp.Tpo .deps/iperf3_profile-iperf_udp.Po
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-dscp.o -MD -MP -MF .deps/iperf3_profile-dscp.Tpo -c -o iperf3_profile-dscp.o `test -f 'dscp.c' || echo './'`dscp.c
+mv -f .deps/iperf3_profile-iperf_util.Tpo .deps/iperf3_profile-iperf_util.Po
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-net.o -MD -MP -MF .deps/iperf3_profile-net.Tpo -c -o iperf3_profile-net.o `test -f 'net.c' || echo './'`net.c
+mv -f .deps/iperf3_profile-iperf_time.Tpo .deps/iperf3_profile-iperf_time.Po
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-tcp_info.o -MD -MP -MF .deps/iperf3_profile-tcp_info.Tpo -c -o iperf3_profile-tcp_info.o `test -f 'tcp_info.c' || echo './'`tcp_info.c
+mv -f .deps/iperf3_profile-dscp.Tpo .deps/iperf3_profile-dscp.Po
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-timer.o -MD -MP -MF .deps/iperf3_profile-timer.Tpo -c -o iperf3_profile-timer.o `test -f 'timer.c' || echo './'`timer.c
+mv -f .deps/iperf3_profile-tcp_info.Tpo .deps/iperf3_profile-tcp_info.Po
+gcc -DHAVE_CONFIG_H -I.    -pg -g -O3 -march=native -Wall -MT iperf3_profile-units.o -MD -MP -MF .deps/iperf3_profile-units.Tpo -c -o iperf3_profile-units.o `test -f 'units.c' || echo './'`units.c
+mv -f .deps/iperf3_profile-net.Tpo .deps/iperf3_profile-net.Po
+mv -f .deps/iperf3_profile-timer.Tpo .deps/iperf3_profile-timer.Po
+/bin/bash ../libtool  --tag=CC   --mode=link gcc  -O3 -march=native -Wall   -o libiperf.la -rpath /home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib cjson.lo iperf_api.lo iperf_error.lo iperf_auth.lo iperf_client_api.lo iperf_locale.lo iperf_server_api.lo iperf_tcp.lo iperf_udp.lo iperf_sctp.lo iperf_util.lo iperf_time.lo dscp.lo net.lo tcp_info.lo timer.lo units.lo  -lssl -lcrypto -lm 
+mv -f .deps/iperf3_profile-units.Tpo .deps/iperf3_profile-units.Po
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/cjson.o .libs/iperf_api.o .libs/iperf_error.o .libs/iperf_auth.o .libs/iperf_client_api.o .libs/iperf_locale.o .libs/iperf_server_api.o .libs/iperf_tcp.o .libs/iperf_udp.o .libs/iperf_sctp.o .libs/iperf_util.o .libs/iperf_time.o .libs/dscp.o .libs/net.o .libs/tcp_info.o .libs/timer.o .libs/units.o   -lssl -lcrypto -lm  -O3 -march=native   -Wl,-soname -Wl,libiperf.so.0 -o .libs/libiperf.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libiperf.so.0" && ln -s "libiperf.so.0.0.0" "libiperf.so.0")
+libtool: link: (cd ".libs" && rm -f "libiperf.so" && ln -s "libiperf.so.0.0.0" "libiperf.so")
+libtool: link: ar cru .libs/libiperf.a  cjson.o iperf_api.o iperf_error.o iperf_auth.o iperf_client_api.o iperf_locale.o iperf_server_api.o iperf_tcp.o iperf_udp.o iperf_sctp.o iperf_util.o iperf_time.o dscp.o net.o tcp_info.o timer.o units.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+libtool: link: ranlib .libs/libiperf.a
+libtool: link: ( cd ".libs" && rm -f "libiperf.la" && ln -s "../libiperf.la" "libiperf.la" )
+/bin/bash ../libtool  --tag=CC   --mode=link gcc -g -O3 -march=native -Wall -g  -o iperf3 iperf3-main.o libiperf.la -lssl -lcrypto -lm 
+/bin/bash ../libtool  --tag=CC   --mode=link gcc -g -O3 -march=native -Wall   -o t_timer t_timer-t_timer.o libiperf.la -lssl -lcrypto -lm 
+/bin/bash ../libtool  --tag=CC   --mode=link gcc -g -O3 -march=native -Wall   -o t_units t_units-t_units.o libiperf.la -lssl -lcrypto -lm 
+mv -f .deps/iperf3_profile-iperf_api.Tpo .deps/iperf3_profile-iperf_api.Po
+/bin/bash ../libtool  --tag=CC   --mode=link gcc -g -O3 -march=native -Wall   -o t_uuid t_uuid-t_uuid.o libiperf.la -lssl -lcrypto -lm 
+libtool: link: gcc -g -O3 -march=native -Wall -g -o .libs/iperf3 iperf3-main.o  ./.libs/libiperf.so -lssl -lcrypto -lm -Wl,-rpath -Wl,/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib
+libtool: link: gcc -g -O3 -march=native -Wall -o .libs/t_timer t_timer-t_timer.o  ./.libs/libiperf.so -lssl -lcrypto -lm -Wl,-rpath -Wl,/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib
+libtool: link: gcc -g -O3 -march=native -Wall -o .libs/t_units t_units-t_units.o  ./.libs/libiperf.so -lssl -lcrypto -lm -Wl,-rpath -Wl,/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib
+libtool: link: gcc -g -O3 -march=native -Wall -o .libs/t_uuid t_uuid-t_uuid.o  ./.libs/libiperf.so -lssl -lcrypto -lm -Wl,-rpath -Wl,/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib
+/bin/bash ../libtool  --tag=CC   --mode=link gcc -g -O3 -march=native -Wall   -o t_api t_api-t_api.o libiperf.la -lssl -lcrypto -lm 
+/bin/bash ../libtool  --tag=CC   --mode=link gcc -pg -g -O3 -march=native -Wall -pg -g  -o iperf3_profile iperf3_profile-main.o iperf3_profile-cjson.o iperf3_profile-iperf_api.o iperf3_profile-iperf_error.o iperf3_profile-iperf_auth.o iperf3_profile-iperf_client_api.o iperf3_profile-iperf_locale.o iperf3_profile-iperf_server_api.o iperf3_profile-iperf_tcp.o iperf3_profile-iperf_udp.o iperf3_profile-iperf_sctp.o iperf3_profile-iperf_util.o iperf3_profile-iperf_time.o iperf3_profile-dscp.o iperf3_profile-net.o iperf3_profile-tcp_info.o iperf3_profile-timer.o iperf3_profile-units.o libiperf.la -lssl -lcrypto -lm 
+libtool: link: gcc -g -O3 -march=native -Wall -o .libs/t_api t_api-t_api.o  ./.libs/libiperf.so -lssl -lcrypto -lm -Wl,-rpath -Wl,/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib
+libtool: link: gcc -pg -g -O3 -march=native -Wall -pg -g -o .libs/iperf3_profile iperf3_profile-main.o iperf3_profile-cjson.o iperf3_profile-iperf_api.o iperf3_profile-iperf_error.o iperf3_profile-iperf_auth.o iperf3_profile-iperf_client_api.o iperf3_profile-iperf_locale.o iperf3_profile-iperf_server_api.o iperf3_profile-iperf_tcp.o iperf3_profile-iperf_udp.o iperf3_profile-iperf_sctp.o iperf3_profile-iperf_util.o iperf3_profile-iperf_time.o iperf3_profile-dscp.o iperf3_profile-net.o iperf3_profile-tcp_info.o iperf3_profile-timer.o iperf3_profile-units.o  ./.libs/libiperf.so -lssl -lcrypto -lm -Wl,-rpath -Wl,/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib
+make[2]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7/src'
+make[1]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7/src'
+Making all in examples
+make[1]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7/examples'
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src  -g -O3 -march=native -Wall -MT mic-mic.o -MD -MP -MF .deps/mic-mic.Tpo -c -o mic-mic.o `test -f 'mic.c' || echo './'`mic.c
+gcc -DHAVE_CONFIG_H -I. -I../src  -I../src  -g -O3 -march=native -Wall -MT mis-mis.o -MD -MP -MF .deps/mis-mis.Tpo -c -o mis-mis.o `test -f 'mis.c' || echo './'`mis.c
+mv -f .deps/mis-mis.Tpo .deps/mis-mis.Po
+mv -f .deps/mic-mic.Tpo .deps/mic-mic.Po
+/bin/bash ../libtool  --tag=CC   --mode=link gcc -g -O3 -march=native -Wall -g  -o mis mis-mis.o ../src/libiperf.la -lssl -lcrypto -lm 
+/bin/bash ../libtool  --tag=CC   --mode=link gcc -g -O3 -march=native -Wall -g  -o mic mic-mic.o ../src/libiperf.la -lssl -lcrypto -lm 
+libtool: link: gcc -g -O3 -march=native -Wall -g -o .libs/mis mis-mis.o  ../src/.libs/libiperf.so -lssl -lcrypto -lm -Wl,-rpath -Wl,/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib
+libtool: link: gcc -g -O3 -march=native -Wall -g -o .libs/mic mic-mic.o  ../src/.libs/libiperf.so -lssl -lcrypto -lm -Wl,-rpath -Wl,/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib
+make[1]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7/examples'
+make[1]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7'
+Making install in src
+make[1]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7/src'
+make[2]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7/src'
+ /bin/mkdir -p '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libiperf.la '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib'
+libtool: install: /usr/bin/install -c .libs/libiperf.so.0.0.0 /home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib/libiperf.so.0.0.0
+libtool: install: (cd /home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib && { ln -s -f libiperf.so.0.0.0 libiperf.so.0 || { rm -f libiperf.so.0 && ln -s libiperf.so.0.0.0 libiperf.so.0; }; })
+libtool: install: (cd /home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib && { ln -s -f libiperf.so.0.0.0 libiperf.so || { rm -f libiperf.so && ln -s libiperf.so.0.0.0 libiperf.so; }; })
+libtool: install: /usr/bin/install -c .libs/libiperf.lai /home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib/libiperf.la
+libtool: install: /usr/bin/install -c .libs/libiperf.a /home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib/libiperf.a
+libtool: install: chmod 644 /home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib/libiperf.a
+libtool: install: ranlib /home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib/libiperf.a
+libtool: finish: PATH="/tmp/pts-compiler-mask-iperf1.1.0/:/usr/local/bin:/usr/bin:/bin:/usr/games:/sbin" ldconfig -n /home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/bin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c iperf3 '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/bin'
+libtool: install: /usr/bin/install -c .libs/iperf3 /home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/bin/iperf3
+ /bin/mkdir -p '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/include'
+ /usr/bin/install -c -m 644 iperf_api.h '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/include'
+ /bin/mkdir -p '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/share/man/man1'
+ /usr/bin/install -c -m 644 iperf3.1 '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/share/man/man1'
+ /bin/mkdir -p '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/share/man/man3'
+ /usr/bin/install -c -m 644 libiperf.3 '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0//iperf-install/share/man/man3'
+make[2]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7/src'
+make[1]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7/src'
+Making install in examples
+make[1]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7/examples'
+make[2]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7/examples'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7/examples'
+make[1]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7/examples'
+make[1]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7'
+make[2]: Entering directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7'
+make[1]: Leaving directory '/home/jacob/.phoronix-test-suite/installed-tests/pts/iperf-1.1.0/iperf-3.7'
