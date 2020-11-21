@@ -1,0 +1,18 @@
+libkmod: ERROR ../libkmod/libkmod-config.c:656 kmod_config_parse: /etc/modprobe.d/permit-mounts-in-userns.conf line 1: ignoring bad line starting with 'overlay'
+Slot:	00:00.0
+Class:	PCI bridge [0604]
+Vendor:	Broadcom Limited [14e4]
+Device:	Device [2711]
+Rev:	10
+Driver:	pcieport
+
+Slot:	01:00.0
+Class:	USB controller [0c03]
+Vendor:	VIA Technologies, Inc. [1106]
+Device:	VL805 USB 3.0 Host Controller [3483]
+SVendor:	VIA Technologies, Inc. [1106]
+SDevice:	VL805 USB 3.0 Host Controller [3483]
+Rev:	01
+ProgIf:	30
+Driver:	xhci_hcd
+

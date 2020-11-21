@@ -1,0 +1,252 @@
+#####
+1 - Run 1
+2020-11-20 19:44:35
+#####
+iperf 3.7
+Linux monaco 5.4.77-v7l-s3755145+ #1 SMP Tue Nov 17 18:47:10 CET 2020 armv7l
+Control connection MSS 32768
+Setting UDP block size to 32768
+Time: Fri, 20 Nov 2020 18:43:33 GMT
+Connecting to host localhost, port 5201
+      Cookie: xboteqyz5ey2ju76n6gd2zfl4lf5ntaus36q
+      Target Bitrate: 100000000
+[  9] local ::1 port 44086 connected to ::1 port 5201
+Starting Test: protocol: UDP, 1 streams, 32768 byte blocks, omitting 0 seconds, 60 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  9]   0.00-1.00   sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]   1.00-2.00   sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]   2.00-3.00   sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]   3.00-4.00   sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]   4.00-5.00   sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]   5.00-6.00   sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]   6.00-7.00   sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]   7.00-8.00   sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]   8.00-9.00   sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]   9.00-10.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  10.00-11.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  11.00-12.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  12.00-13.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  13.00-14.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  14.00-15.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  15.00-16.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  16.00-17.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  17.00-18.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  18.00-19.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  19.00-20.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  20.00-21.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  21.00-22.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  22.00-23.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  23.00-24.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  24.00-25.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  25.00-26.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  26.00-27.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  27.00-28.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  28.00-29.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  29.00-30.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  30.00-31.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  31.00-32.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  32.00-33.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  33.00-34.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  34.00-35.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  35.00-36.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  36.00-37.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  37.00-38.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  38.00-39.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  39.00-40.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  40.00-41.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  41.00-42.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  42.00-43.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  43.00-44.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  44.00-45.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  45.00-46.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  46.00-47.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  47.00-48.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  48.00-49.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  49.00-50.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  50.00-51.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  51.00-52.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  52.00-53.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  53.00-54.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  54.00-55.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  55.00-56.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  56.00-57.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  57.00-58.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  58.00-59.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  59.00-60.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  9]   0.00-60.00  sec   715 MBytes   100 Mbits/sec  0.000 ms  0/22888 (0%)  sender
+[  9]   0.00-60.01  sec   715 MBytes   100 Mbits/sec  0.001 ms  2/22888 (0.0087%)  receiver
+CPU Utilization: local/sender 6.4% (3.2%u/3.2%s), remote/receiver 3.8% (0.0%u/3.8%s)
+
+iperf Done.
+
+#####
+1 - Run 2
+2020-11-20 19:45:42
+#####
+iperf 3.7
+Linux monaco 5.4.77-v7l-s3755145+ #1 SMP Tue Nov 17 18:47:10 CET 2020 armv7l
+Control connection MSS 32768
+Setting UDP block size to 32768
+Time: Fri, 20 Nov 2020 18:44:40 GMT
+Connecting to host localhost, port 5201
+      Cookie: zej4vo4qinuqqfykf24rwe4ohfdseut6wrky
+      Target Bitrate: 100000000
+[  9] local ::1 port 41852 connected to ::1 port 5201
+Starting Test: protocol: UDP, 1 streams, 32768 byte blocks, omitting 0 seconds, 60 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  9]   0.00-1.00   sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]   1.00-2.00   sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]   2.00-3.00   sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]   3.00-4.00   sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]   4.00-5.00   sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]   5.00-6.00   sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]   6.00-7.00   sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]   7.00-8.00   sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]   8.00-9.00   sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]   9.00-10.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  10.00-11.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  11.00-12.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  12.00-13.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  13.00-14.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  14.00-15.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  15.00-16.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  16.00-17.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  17.00-18.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  18.00-19.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  19.00-20.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  20.00-21.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  21.00-22.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  22.00-23.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  23.00-24.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  24.00-25.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  25.00-26.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  26.00-27.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  27.00-28.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  28.00-29.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  29.00-30.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  30.00-31.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  31.00-32.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  32.00-33.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  33.00-34.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  34.00-35.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  35.00-36.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  36.00-37.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  37.00-38.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  38.00-39.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  39.00-40.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  40.00-41.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  41.00-42.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  42.00-43.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  43.00-44.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  44.00-45.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  45.00-46.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  46.00-47.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  47.00-48.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  48.00-49.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  49.00-50.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  50.00-51.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  51.00-52.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  52.00-53.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  53.00-54.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  54.00-55.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  55.00-56.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  56.00-57.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  57.00-58.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  58.00-59.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  59.00-60.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  9]   0.00-60.00  sec   715 MBytes   100 Mbits/sec  0.000 ms  0/22888 (0%)  sender
+[  9]   0.00-60.00  sec   715 MBytes   100 Mbits/sec  0.000 ms  0/22888 (0%)  receiver
+CPU Utilization: local/sender 6.4% (0.0%u/6.4%s), remote/receiver 3.8% (1.9%u/1.9%s)
+
+iperf Done.
+
+#####
+1 - Run 3
+2020-11-20 19:46:47
+#####
+iperf 3.7
+Linux monaco 5.4.77-v7l-s3755145+ #1 SMP Tue Nov 17 18:47:10 CET 2020 armv7l
+Control connection MSS 32768
+Setting UDP block size to 32768
+Time: Fri, 20 Nov 2020 18:45:47 GMT
+Connecting to host localhost, port 5201
+      Cookie: u4zmn64itayvkz6n3shud7qc3u7dgbx4zawt
+      Target Bitrate: 100000000
+[  9] local ::1 port 55605 connected to ::1 port 5201
+Starting Test: protocol: UDP, 1 streams, 32768 byte blocks, omitting 0 seconds, 60 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  9]   0.00-1.00   sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]   1.00-2.00   sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]   2.00-3.00   sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]   3.00-4.00   sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]   4.00-5.00   sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]   5.00-6.00   sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]   6.00-7.00   sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]   7.00-8.00   sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]   8.00-9.00   sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]   9.00-10.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  10.00-11.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  11.00-12.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  12.00-13.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  13.00-14.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  14.00-15.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  15.00-16.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  16.00-17.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  17.00-18.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  18.00-19.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  19.00-20.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  20.00-21.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  21.00-22.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  22.00-23.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  23.00-24.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  24.00-25.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  25.00-26.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  26.00-27.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  27.00-28.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  28.00-29.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  29.00-30.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  30.00-31.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  31.00-32.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  32.00-33.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  33.00-34.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  34.00-35.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  35.00-36.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  36.00-37.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  37.00-38.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  38.00-39.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  39.00-40.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  40.00-41.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  41.00-42.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  42.00-43.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  43.00-44.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  44.00-45.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  45.00-46.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  46.00-47.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  47.00-48.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  48.00-49.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  49.00-50.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  50.00-51.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  51.00-52.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  52.00-53.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  53.00-54.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  54.00-55.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  55.00-56.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  56.00-57.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  57.00-58.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+[  9]  58.00-59.00  sec  11.9 MBytes   100 Mbits/sec  382  
+[  9]  59.00-60.00  sec  11.9 MBytes  99.9 Mbits/sec  381  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  9]   0.00-60.00  sec   715 MBytes   100 Mbits/sec  0.000 ms  0/22888 (0%)  sender
+[  9]   0.00-60.00  sec   715 MBytes   100 Mbits/sec  0.001 ms  0/22888 (0%)  receiver
+CPU Utilization: local/sender 6.4% (4.2%u/2.1%s), remote/receiver 3.8% (0.0%u/3.8%s)
+
+iperf Done.
+

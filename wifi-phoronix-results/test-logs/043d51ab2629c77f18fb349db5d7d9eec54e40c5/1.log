@@ -1,0 +1,321 @@
+#####
+1 - Run 1
+2020-11-20 19:52:07
+#####
+iperf 3.7
+Linux monaco 5.4.77-v7l-s3755145+ #1 SMP Tue Nov 17 18:47:10 CET 2020 armv7l
+Control connection MSS 32768
+Setting UDP block size to 32768
+Time: Fri, 20 Nov 2020 18:51:55 GMT
+Connecting to host localhost, port 5201
+      Cookie: jz6vzyy2wpmdfmyzahfgiuqjdlbtbrtgl5u5
+      Target Bitrate: 1000000000
+[  9] local ::1 port 51909 connected to ::1 port 5201
+[ 11] local ::1 port 38403 connected to ::1 port 5201
+[ 13] local ::1 port 57992 connected to ::1 port 5201
+[ 15] local ::1 port 34711 connected to ::1 port 5201
+[ 17] local ::1 port 47467 connected to ::1 port 5201
+Starting Test: protocol: UDP, 5 streams, 32768 byte blocks, omitting 0 seconds, 10 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  9]   0.00-1.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 11]   0.00-1.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 13]   0.00-1.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 15]   0.00-1.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 17]   0.00-1.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[SUM]   0.00-1.00   sec   596 MBytes  4999 Mbits/sec  19070  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   1.00-2.00   sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   2.00-3.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   2.00-3.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   2.00-3.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   2.00-3.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   2.00-3.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   2.00-3.00   sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   3.00-4.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   3.00-4.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   3.00-4.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   3.00-4.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   3.00-4.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   3.00-4.00   sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 11]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 13]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 15]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 17]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[SUM]   4.00-5.00   sec   596 MBytes  4999 Mbits/sec  19070  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   5.00-6.00   sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   6.00-7.00   sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 11]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 13]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 15]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 17]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[SUM]   7.00-8.00   sec   596 MBytes  4999 Mbits/sec  19070  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   8.00-9.00   sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[ 11]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[ 13]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[ 15]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[ 17]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3814  
+[SUM]   9.00-10.00  sec   596 MBytes  4999 Mbits/sec  19070  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  9]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38146 (0%)  sender
+[  9]   0.00-10.00  sec  1.16 GBytes   999 Mbits/sec  0.033 ms  42/38146 (0.11%)  receiver
+[ 11]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38146 (0%)  sender
+[ 11]   0.00-10.00  sec  1.16 GBytes   999 Mbits/sec  0.024 ms  43/38146 (0.11%)  receiver
+[ 13]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38146 (0%)  sender
+[ 13]   0.00-10.00  sec  1.16 GBytes   999 Mbits/sec  0.029 ms  43/38146 (0.11%)  receiver
+[ 15]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38146 (0%)  sender
+[ 15]   0.00-10.00  sec  1.16 GBytes   999 Mbits/sec  0.034 ms  43/38146 (0.11%)  receiver
+[ 17]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38146 (0%)  sender
+[ 17]   0.00-10.00  sec  1.16 GBytes   999 Mbits/sec  0.049 ms  43/38146 (0.11%)  receiver
+[SUM]   0.00-10.00  sec  5.82 GBytes  5000 Mbits/sec  0.000 ms  0/190730 (0%)  sender
+[SUM]   0.00-10.00  sec  5.81 GBytes  4993 Mbits/sec  0.034 ms  214/190730 (0.11%)  receiver
+CPU Utilization: local/sender 55.4% (0.9%u/54.5%s), remote/receiver 48.6% (3.4%u/45.3%s)
+
+iperf Done.
+
+#####
+1 - Run 2
+2020-11-20 19:52:24
+#####
+iperf 3.7
+Linux monaco 5.4.77-v7l-s3755145+ #1 SMP Tue Nov 17 18:47:10 CET 2020 armv7l
+Control connection MSS 32768
+Setting UDP block size to 32768
+Time: Fri, 20 Nov 2020 18:52:12 GMT
+Connecting to host localhost, port 5201
+      Cookie: tvohfhwgdjob4lysmn56kvrgqr4btqxz53nt
+      Target Bitrate: 1000000000
+[  9] local ::1 port 59747 connected to ::1 port 5201
+[ 11] local ::1 port 39290 connected to ::1 port 5201
+[ 13] local ::1 port 59940 connected to ::1 port 5201
+[ 15] local ::1 port 33120 connected to ::1 port 5201
+[ 17] local ::1 port 51944 connected to ::1 port 5201
+Starting Test: protocol: UDP, 5 streams, 32768 byte blocks, omitting 0 seconds, 10 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  9]   0.00-1.00   sec   119 MBytes   999 Mbits/sec  3812  
+[ 11]   0.00-1.00   sec   119 MBytes   999 Mbits/sec  3812  
+[ 13]   0.00-1.00   sec   119 MBytes   999 Mbits/sec  3812  
+[ 15]   0.00-1.00   sec   119 MBytes   999 Mbits/sec  3812  
+[ 17]   0.00-1.00   sec   119 MBytes   999 Mbits/sec  3812  
+[SUM]   0.00-1.00   sec   596 MBytes  4996 Mbits/sec  19060  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 11]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 13]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 15]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 17]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[SUM]   1.00-2.00   sec   596 MBytes  4999 Mbits/sec  19070  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   2.00-3.00   sec   119 MBytes  1001 Mbits/sec  3818  
+[ 11]   2.00-3.00   sec   119 MBytes  1001 Mbits/sec  3818  
+[ 13]   2.00-3.00   sec   119 MBytes  1001 Mbits/sec  3818  
+[ 15]   2.00-3.00   sec   119 MBytes  1001 Mbits/sec  3818  
+[ 17]   2.00-3.00   sec   119 MBytes  1001 Mbits/sec  3818  
+[SUM]   2.00-3.00   sec   597 MBytes  5004 Mbits/sec  19090  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   3.00-4.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   3.00-4.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   3.00-4.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   3.00-4.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   3.00-4.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   3.00-4.00   sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 11]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 13]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 15]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 17]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[SUM]   4.00-5.00   sec   596 MBytes  4999 Mbits/sec  19070  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   5.00-6.00   sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   6.00-7.00   sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 11]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 13]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 15]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 17]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[SUM]   7.00-8.00   sec   596 MBytes  4999 Mbits/sec  19070  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   8.00-9.00   sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   9.00-10.00  sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  9]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38147 (0%)  sender
+[  9]   0.00-10.01  sec  1.16 GBytes   995 Mbits/sec  0.037 ms  162/38147 (0.42%)  receiver
+[ 11]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38147 (0%)  sender
+[ 11]   0.00-10.01  sec  1.16 GBytes   995 Mbits/sec  0.036 ms  164/38147 (0.43%)  receiver
+[ 13]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38147 (0%)  sender
+[ 13]   0.00-10.01  sec  1.16 GBytes   995 Mbits/sec  0.035 ms  164/38147 (0.43%)  receiver
+[ 15]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38147 (0%)  sender
+[ 15]   0.00-10.01  sec  1.16 GBytes   995 Mbits/sec  0.036 ms  164/38147 (0.43%)  receiver
+[ 17]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38147 (0%)  sender
+[ 17]   0.00-10.01  sec  1.16 GBytes   995 Mbits/sec  0.036 ms  167/38147 (0.44%)  receiver
+[SUM]   0.00-10.00  sec  5.82 GBytes  5000 Mbits/sec  0.000 ms  0/190735 (0%)  sender
+[SUM]   0.00-10.01  sec  5.80 GBytes  4976 Mbits/sec  0.036 ms  821/190735 (0.43%)  receiver
+CPU Utilization: local/sender 57.6% (5.3%u/52.4%s), remote/receiver 49.9% (0.9%u/48.9%s)
+
+iperf Done.
+
+#####
+1 - Run 3
+2020-11-20 19:52:39
+#####
+iperf 3.7
+Linux monaco 5.4.77-v7l-s3755145+ #1 SMP Tue Nov 17 18:47:10 CET 2020 armv7l
+Control connection MSS 32768
+Setting UDP block size to 32768
+Time: Fri, 20 Nov 2020 18:52:29 GMT
+Connecting to host localhost, port 5201
+      Cookie: iuc4bmwwbjt35ds3nzdhbdyl3dr4dhuzwo22
+      Target Bitrate: 1000000000
+[  9] local ::1 port 58290 connected to ::1 port 5201
+[ 11] local ::1 port 48039 connected to ::1 port 5201
+[ 13] local ::1 port 46724 connected to ::1 port 5201
+[ 15] local ::1 port 41595 connected to ::1 port 5201
+[ 17] local ::1 port 39847 connected to ::1 port 5201
+Starting Test: protocol: UDP, 5 streams, 32768 byte blocks, omitting 0 seconds, 10 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  9]   0.00-1.00   sec   119 MBytes   999 Mbits/sec  3812  
+[ 11]   0.00-1.00   sec   119 MBytes   999 Mbits/sec  3812  
+[ 13]   0.00-1.00   sec   119 MBytes   999 Mbits/sec  3812  
+[ 15]   0.00-1.00   sec   119 MBytes   999 Mbits/sec  3812  
+[ 17]   0.00-1.00   sec   119 MBytes   999 Mbits/sec  3812  
+[SUM]   0.00-1.00   sec   596 MBytes  4996 Mbits/sec  19060  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   1.00-2.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   1.00-2.00   sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   2.00-3.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 11]   2.00-3.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 13]   2.00-3.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 15]   2.00-3.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 17]   2.00-3.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[SUM]   2.00-3.00   sec   596 MBytes  4999 Mbits/sec  19070  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   3.00-4.00   sec   119 MBytes  1001 Mbits/sec  3818  
+[ 11]   3.00-4.00   sec   119 MBytes  1001 Mbits/sec  3818  
+[ 13]   3.00-4.00   sec   119 MBytes  1001 Mbits/sec  3818  
+[ 15]   3.00-4.00   sec   119 MBytes  1001 Mbits/sec  3818  
+[ 17]   3.00-4.00   sec   119 MBytes  1001 Mbits/sec  3818  
+[SUM]   3.00-4.00   sec   597 MBytes  5004 Mbits/sec  19090  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 11]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 13]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 15]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 17]   4.00-5.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[SUM]   4.00-5.00   sec   596 MBytes  4999 Mbits/sec  19070  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   5.00-6.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   5.00-6.00   sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   6.00-7.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   6.00-7.00   sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 11]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 13]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 15]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[ 17]   7.00-8.00   sec   119 MBytes  1000 Mbits/sec  3814  
+[SUM]   7.00-8.00   sec   596 MBytes  4999 Mbits/sec  19070  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   8.00-9.00   sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   8.00-9.00   sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[  9]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3815  
+[ 11]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3815  
+[ 13]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3815  
+[ 15]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3815  
+[ 17]   9.00-10.00  sec   119 MBytes  1000 Mbits/sec  3815  
+[SUM]   9.00-10.00  sec   596 MBytes  5000 Mbits/sec  19075  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  9]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38147 (0%)  sender
+[  9]   0.00-10.00  sec  1.16 GBytes   998 Mbits/sec  0.029 ms  94/38147 (0.25%)  receiver
+[ 11]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38147 (0%)  sender
+[ 11]   0.00-10.00  sec  1.16 GBytes   998 Mbits/sec  0.023 ms  94/38147 (0.25%)  receiver
+[ 13]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38147 (0%)  sender
+[ 13]   0.00-10.00  sec  1.16 GBytes   998 Mbits/sec  0.032 ms  94/38147 (0.25%)  receiver
+[ 15]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38147 (0%)  sender
+[ 15]   0.00-10.00  sec  1.16 GBytes   997 Mbits/sec  0.042 ms  94/38146 (0.25%)  receiver
+[ 17]   0.00-10.00  sec  1.16 GBytes  1000 Mbits/sec  0.000 ms  0/38147 (0%)  sender
+[ 17]   0.00-10.00  sec  1.16 GBytes   997 Mbits/sec  0.048 ms  94/38146 (0.25%)  receiver
+[SUM]   0.00-10.00  sec  5.82 GBytes  5000 Mbits/sec  0.000 ms  0/190735 (0%)  sender
+[SUM]   0.00-10.00  sec  5.81 GBytes  4987 Mbits/sec  0.035 ms  470/190733 (0.25%)  receiver
+CPU Utilization: local/sender 57.3% (1.5%u/55.8%s), remote/receiver 50.0% (0.2%u/49.7%s)
+
+iperf Done.
+
