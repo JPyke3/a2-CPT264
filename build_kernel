@@ -34,7 +34,7 @@ clone_config_repo () {
     # Clone the config repo using ssh, this is to ensure the repo can remain private
     $GIT clone git@github.com:JPyke3/a2-CPT264.git "$BUILDDIR"/config
     # Start the control_cpu script
-    $SUDO ./"$BUILDDIR"/config/control_cpu &
+    $SUDO "$BUILDDIR"/config/control_cpu &
     CONTROLPID=$!
 }
 
