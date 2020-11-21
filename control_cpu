@@ -29,8 +29,8 @@ turn_off_led () {
 
 # Polls the CPU and writes the usage to $USAGE and the remainder of $USAGE to $NONUSAGE
 poll_cpu () {
-    USAGE=`${TOP} -bn1 | ${GREP} 'Cpu(s)' | ${AWK} '{printf "%.0f\n", \$2}' | ${AWK} '{ print $1 / 100}'`
-    NONUSAGE=`${TOP} -bn1 | ${GREP} 'Cpu(s)' | ${AWK} '{printf "%.0f\n", 100 - \$2}' | ${AWK} '{ print $1 / 100}'`
+    USAGE=$(${TOP} -bn1 | ${GREP} 'Cpu(s)' | ${AWK} "{printf "%.0f\n", \$2}" | ${AWK} "{ print $1 / 100}")
+    NONUSAGE=$(${TOP} -bn1 | ${GREP} 'Cpu(s)' | ${AWK} "{printf "%.0f\n", 100 - \$2}" | ${AWK} "{ print $1 / 100}")
 }
 
 # Function to handle cleaning up from this bash script, this will revert the pi back to it's original state
@@ -50,15 +50,15 @@ turn_off_led
 while true
 do
     # Poll the current CPU usage
-    poll_cpu
+    poll_cpu "$@"
     # Turn on the LED
     turn_on_led
     # Sleep for the CPU usage, this is handled in seconds, so if usage is 0.5, then it is half a second
-    sleep $USAGE
+    sleep "$USAGE"
     # Turn off the LED after the sleep has finished
     turn_off_led
     # Sleep for the remainder, if the usage is 0.2 then the script will sleep for 0.8
-    sleep $NONUSAGE
+    sleep "$NONUSAGE"
 done
 
 
